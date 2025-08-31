@@ -74,6 +74,32 @@ async def get_question(question_id: int):
         "options": question["options"]
     }
 
+@app.get("/api/quiz/{question_id}/correct-answer")
+async def get_correct_answer(question_id: int):
+    """Get correct answer for a specific question (for quick answer feature)"""
+    quiz_data = load_quiz_data()
+    question = next((q for q in quiz_data if q["id"] == question_id), None)
+    if not question:
+        raise HTTPException(status_code=404, detail="Question not found")
+    
+    correct_answer = question.get("correct", [""])[0]
+    correct_text = ""
+    
+    if correct_answer and question.get("options"):
+        try:
+            # Convert A, B, C, D to 0, 1, 2, 3
+            option_index = ord(correct_answer) - ord("A")
+            if 0 <= option_index < len(question["options"]):
+                correct_text = question["options"][option_index]
+        except (IndexError, ValueError):
+            pass
+    
+    return {
+        "id": question_id,
+        "correct_answer": correct_answer,
+        "correct_text": correct_text
+    }
+
 @app.post("/api/quiz/{question_id}/answer")
 async def submit_answer(question_id: int, answer: Answer):
     """Submit answer for a specific question"""

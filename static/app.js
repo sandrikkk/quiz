@@ -16,6 +16,7 @@ class QuizApp {
         document.getElementById('show-results-btn').addEventListener('click', () => this.showResults());
         document.getElementById('show-details-btn').addEventListener('click', () => this.toggleDetailedResults());
         document.getElementById('restart-btn').addEventListener('click', () => this.restartQuiz());
+        document.getElementById('quick-answer-btn').addEventListener('click', () => this.showQuickAnswer());
     }
     
     async loadQuiz() {
@@ -301,6 +302,70 @@ class QuizApp {
             console.error('Error getting results:', error);
             this.showError('შედეგების მიღებისას მოხდა შეცდომა');
         }
+    }
+    
+    async showQuickAnswer() {
+        try {
+            const currentQuestion = this.questions[this.currentQuestionIndex];
+            const questionId = currentQuestion.id;
+            
+            // Fetch correct answer from backend
+            const response = await fetch(`/api/quiz/${questionId}/correct-answer`);
+            if (!response.ok) {
+                throw new Error('Failed to get correct answer');
+            }
+            
+            const answerData = await response.json();
+            
+            if (answerData.correct_answer && answerData.correct_text) {
+                const answerMessage = `✅ სწორი პასუხი: ${answerData.correct_answer}. ${answerData.correct_text}`;
+                this.showQuickAnswerModal(answerMessage);
+            } else {
+                this.showQuickAnswerModal('❌ სწორი პასუხი ვერ მოიძებნა');
+            }
+        } catch (error) {
+            console.error('Error getting correct answer:', error);
+            this.showQuickAnswerModal('❌ შეცდომა სწორი პასუხის მიღებისას');
+        }
+    }
+    
+    showQuickAnswerModal(message) {
+        // Remove existing modal if any
+        const existingModal = document.getElementById('quick-answer-modal');
+        if (existingModal) {
+            existingModal.remove();
+        }
+        
+        // Create modal HTML
+        const modalHTML = `
+            <div id="quick-answer-modal" class="modal-overlay">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5><i class="fas fa-eye"></i> სწრაფი პასუხი</h5>
+                        <button type="button" class="btn-close" onclick="this.closest('.modal-overlay').remove()"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="mb-0">${message}</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" onclick="this.closest('.modal-overlay').remove()">
+                            გასაგებია
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        // Add modal to body
+        document.body.insertAdjacentHTML('beforeend', modalHTML);
+        
+        // Auto-remove after 5 seconds
+        setTimeout(() => {
+            const modal = document.getElementById('quick-answer-modal');
+            if (modal) {
+                modal.remove();
+            }
+        }, 5000);
     }
     
     reorderResultsToMatchQuestions(results) {
