@@ -165,9 +165,7 @@
     "correct": [
       "C"
     ],
-    "user_answer": [
-      "B"
-    ]
+    "user_answer": []
   },
   {
     "id": 13,
@@ -1039,7 +1037,9 @@
     "correct": [
       "A"
     ],
-    "user_answer": []
+    "user_answer": [
+      "A"
+    ]
   },
   {
     "id": 77,
@@ -1793,7 +1793,9 @@
     "correct": [
       "B"
     ],
-    "user_answer": []
+    "user_answer": [
+      "B"
+    ]
   },
   {
     "id": 9032,
