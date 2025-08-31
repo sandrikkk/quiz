@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>პროგრამირების ქვიზი</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #ffffff;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .quiz-container {
+            background: white;
+            border: 1px solid #e5e5e5;
+            margin: 1rem;
+            padding: 2rem;
+            max-width: none;
+            width: calc(100% - 2rem);
+        }
+        
+        @media (min-width: 768px) {
+            .quiz-container {
+                margin: 2rem;
+                width: calc(100% - 4rem);
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .quiz-container {
+                margin: 2rem auto;
+                max-width: 1000px;
+                width: auto;
+            }
+        }
+        
+        .question-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 1.5rem;
+            padding: 2rem;
+        }
+        
+        .option-btn {
+            margin: 0.5rem 0;
+            text-align: left;
+            border: 1px solid #ddd;
+            background: white;
+            padding: 1rem 1.25rem;
+            width: 100%;
+            transition: all 0.2s ease;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #222;
+        }
+        
+        .option-btn:hover {
+            background: #f8f9fa;
+            border-color: #aaa;
+            color: #333;
+        }
+        
+        .option-btn.btn-primary {
+            background: #333;
+            border-color: #333;
+            color: white;
+        }
+        
+        .option-btn.btn-primary:hover {
+            background: #333;
+            border-color: #333;
+            color: white;
+        }
+        
+        .progress-container {
+            background: #e5e5e5;
+            height: 8px;
+            margin: 1rem 0;
+        }
+        
+        .progress-bar {
+            background: #333;
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+        
+        .quiz-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 1rem;
+        }
+        
+        .quiz-header h1 {
+            color: #333;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            font-size: 1.8rem;
+        }
+        
+        .quiz-header p {
+            color: #666;
+            font-size: 1rem;
+            margin: 0;
+        }
+        
+        .result-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 2rem;
+            text-align: center;
+            margin: 1rem 0;
+        }
+        
+        .result-percentage {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 1rem 0;
+            color: #333;
+        }
+        
+        .correct-answer {
+            background-color: #f0f9f0 !important;
+            border-color: #c3e6cb !important;
+        }
+        
+        .wrong-answer {
+            background-color: #fdf2f2 !important;
+            border-color: #f5c6cb !important;
+        }
+        
+        .btn-primary {
+            background: #333;
+            border: 1px solid #333;
+            padding: 0.6rem 1.5rem;
+            font-weight: normal;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #555;
+            border-color: #555;
+        }
+        
+        .btn-secondary {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 0.6rem 1.5rem;
+            font-weight: normal;
+            color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #f5f5f5;
+            border-color: #999;
+        }
+        
+        .btn-outline-primary {
+            color: #333;
+            border-color: #333;
+            background: white;
+        }
+        
+        .btn-outline-primary:hover {
+            background: #333;
+            border-color: #333;
+            color: white;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 3rem;
+        }
+        
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #333;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.3s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+            color: #111;
+        }
+        
+        h5 {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        
+        .logic-table {
+            border-collapse: collapse;
+            margin: 1rem auto;
+            background: white;
+            border: 2px solid #333;
+        }
+        
+        .logic-table th, .logic-table td {
+            border: 1px solid #333;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            font-weight: 600;
+            min-width: 50px;
+        }
+        
+        .logic-table th {
+            background: #f0f0f0;
+            font-weight: 700;
+            color: #000;
+        }
+        
+        .logic-table td {
+            background: white;
+            color: #333;
+        }
+        
+        .ai-explanation {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #495057;
+        }
+        
+        .ai-explanation h6 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: #007bff;
+        }
+        
+        .ai-explanation strong {
+            color: #343a40;
+            font-weight: 600;
+        }
+        
+        .ai-explanation code {
+            font-size: 0.85rem;
+            background-color: #f8f9fa;
+            padding: 0.125rem 0.25rem;
+            border-radius: 0.25rem;
+        }
+        
+        .ai-explanation pre {
+            font-size: 0.8rem;
+            margin: 0.5rem 0;
+        }
+        
+        .border-left {
+            border-left: 4px solid #17a2b8 !important;
+        }
+        
+        .bg-light {
+            background-color: #f8f9fa !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1><i class="fas fa-code"></i> პროგრამირების ქვიზი</h1>
+                <p>საკითხები</p>
+            </div>
+            
+            <!-- Loading Screen -->
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>იტვირთება...</p>
+            </div>
+            
+            <!-- Quiz Interface -->
+            <div id="quiz-interface" style="display: none;">
+                <div class="progress-container">
+                    <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5>კითხვა <span id="current-question">1</span> / <span id="total-questions">102</span></h5>
+                    <button id="show-results-btn" class="btn btn-outline-primary" style="display: none;">
+                        <i class="fas fa-chart-bar"></i> შედეგები
+                    </button>
+                </div>
+                
+                <div id="question-container">
+                    <!-- Questions will be loaded here -->
+                </div>
+                
+                <div class="d-flex justify-content-between mt-4">
+                    <button id="prev-btn" class="btn btn-secondary" disabled>
+                        <i class="fas fa-arrow-left"></i> წინა
+                    </button>
+                    <div>
+                        <button id="finish-btn" class="btn btn-success me-2">
+                            ტესტის დასრულება <i class="fas fa-check"></i>
+                        </button>
+                        <button id="next-btn" class="btn btn-primary">
+                            შემდეგი <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Results Interface -->
+            <div id="results-interface" style="display: none;">
+                <div class="result-card">
+                    <h2><i class="fas fa-trophy"></i> შედეგები</h2>
+                    <div class="result-percentage" id="result-percentage">0%</div>
+                    <p id="result-text">0 / 102 სწორი პასუხი</p>
+                </div>
+                
+                <div class="d-flex justify-content-center gap-3 mb-4">
+                    <button id="show-details-btn" class="btn btn-outline-primary">
+                        <i class="fas fa-list"></i> დეტალები
+                    </button>
+                    <button id="restart-btn" class="btn btn-primary">
+                        <i class="fas fa-redo"></i> თავიდან დაწყება
+                    </button>
+                </div>
+                
+                <div id="detailed-results" style="display: none;">
+                    <!-- Detailed results will be shown here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="static/app.js"></script>
+</body>
+</html> 
