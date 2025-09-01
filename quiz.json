@@ -1362,13 +1362,13 @@
     "user_answer": []
   },
   {
-    "id": 9001,
-    "question": "romeli erToblioba qmnis kompiuteris gamoTvliT sistemas",
+    "id": 100,
+    "question": "რომელი ერთობლიობა ქმნის კომპიუტერის გამოთვლით სისტემას",
     "options": [
-      "procesori da monitori",
-      "aparaturuli uzrunvelyofa da programuli uzrunvelyofa",
-      "operatiuli mexsiereba da videosistema",
-      "sistemuri blokis mowyobilobebi da periferiuli mowyobilobebi"
+      "პროცესორი და მონიტორი",
+      "აპარატურული უზრუნველყოფა და პროგრამული უზრუნველყოფა",
+      "ოპერატიული მეხსიერება და ვიდეოსისტემა",
+      "სისტემური ბლოკის მოწყობილობები და პერიფერიული მოწყობილობები"
     ],
     "correct": [
       "B"
@@ -1376,13 +1376,13 @@
     "user_answer": []
   },
   {
-    "id": 9002,
-    "question": "CamoTvlilTagan romelia informaciis yvelaze didi sazomi erTeuli?",
+    "id": 101,
+    "question": "ჩამოთვლილთაგან რომელია ინფორმაციის ყველაზე დიდი საზომი ერთეული?",
     "options": [
-      "gigabaiti",
-      "megabaiti",
-      "terabaiti",
-      "biti"
+      "გიგაბაიტი",
+      "მეგაბაიტი",
+      "ტერაბაიტი",
+      "ბიტი"
     ],
     "correct": [
       "C"
@@ -1390,13 +1390,13 @@
     "user_answer": []
   },
   {
-    "id": 9003,
-    "question": "CamoTvlilTagan aTvlis romeli sistema warmoadgens kompiuteris muSaobis safuZvels?",
+    "id": 102,
+    "question": "ჩამოთვლილთაგან ათვლის რომელი სისტემა წარმოადგენს კომპიუტერის მუშაობის საფუძველს?",
     "options": [
-      "orobiTi",
-      "rvaobiTi",
-      "aTobiTi",
-      "TeqvsmetobiTi"
+      "ორობითი",
+      "რვაობითი",
+      "ათობითი",
+      "თექვსმეტობითი"
     ],
     "correct": [
       "A"
@@ -1404,8 +1404,8 @@
     "user_answer": []
   },
   {
-    "id": 9004,
-    "question": "qvemoT CamoTvlilTagan romelia orobiTi 11110101 kodis Sesabamisi aTobiTi ricxvi?",
+    "id": 103,
+    "question": "ქვემოთ ჩამოთვლილთაგან რომელია ორობითი 11110101 კოდის შესაბამისი ათობითი რიცხვი?",
     "options": [
       "245",
       "234",
@@ -1418,13 +1418,13 @@
     "user_answer": []
   },
   {
-    "id": 9005,
-    "question": "romel logikur elements Seesabameba qvemoT moyvanili funqcio­nire­bis cxrili?",
+    "id": 104,
+    "question": "რომელ ლოგიკურ ელემენტს შეესაბამება ქვემოთ მოყვანილი ფუნქციონირების ცხრილი? (A:0,B:0,X:0; A:0,B:1,X:1; A:1,B:0,X:1; A:1,B:1,X:1)",
     "options": [
-      "da",
-      "da-ara",
-      "an",
-      "an-ara"
+      "და",
+      "და-არა",
+      "ან",
+      "ან-არა"
     ],
     "correct": [
       "C"
@@ -1432,13 +1432,13 @@
     "user_answer": []
   },
   {
-    "id": 9006,
-    "question": "romel logikur elements Seesabameba qve=moT moyvanili funqcionirebis cxrili?\nA\nB\nX\n0\n0\n1\n0\n1\n1\n1\n0\n1\n1\n1\n0",
+    "id": 105,
+    "question": "რომელ ლოგიკურ ელემენტს შეესაბამება ქვემოთ მოყვანილი ფუნქციონირების ცხრილი? (A:0,B:0,X:1; A:0,B:1,X:1; A:1,B:0,X:1; A:1,B:1,X:0)",
     "options": [
-      "da",
-      "da-ara",
-      "an",
-      "an-ara"
+      "და",
+      "და-არა",
+      "ან",
+      "ან-არა"
     ],
     "correct": [
       "B"
@@ -1446,13 +1446,13 @@
     "user_answer": []
   },
   {
-    "id": 9007,
-    "question": "bulis algebris romeli gantolebaa swori?",
+    "id": 106,
+    "question": "ბულის ალგებრის რომელი განტოლებაა სწორი?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "პასუხი 1",
+      "პასუხი 2",
+      "პასუხი 3",
+      "პასუხი 4"
     ],
     "correct": [
       "A"
@@ -1460,13 +1460,13 @@
     "user_answer": []
   },
   {
-    "id": 9008,
-    "question": "romel logikur elements gaaCnia erTi Sesasvleli?",
+    "id": 107,
+    "question": "რომელ ლოგიკურ ელემენტს გააჩნია ერთი შესასვლელი?",
     "options": [
-      "da",
-      "an",
-      "ara",
-      "da-ara"
+      "და",
+      "ან",
+      "არა",
+      "და-არა"
     ],
     "correct": [
       "C"
@@ -1474,8 +1474,8 @@
     "user_answer": []
   },
   {
-    "id": 9009,
-    "question": "qvemoT CamoTvlilTagan romelia aTobiTi sistemis 171 ricxvis Sesabamisi orobiTi kodi?",
+    "id": 108,
+    "question": "ქვემოთ ჩამოთვლილთაგან რომელია ათობითი სისტემის 171 რიცხვის შესაბამისი ორობითი კოდი?",
     "options": [
       "10010010",
       "10101011",
@@ -1488,8 +1488,8 @@
     "user_answer": []
   },
   {
-    "id": 9010,
-    "question": "SeasruleT Sesabamisi moqmedeba orobiTi aTvlis sistemaSi\n1110101+1100101da aRniSneT swori pasuxi",
+    "id": 109,
+    "question": "შეასრულეთ შესაბამისი მოქმედება ორობითი ათვლის სისტემაში 1110101+1100101 და აღნიშნეთ სწორი პასუხი",
     "options": [
       "10010000",
       "10101010",
@@ -1502,13 +1502,13 @@
     "user_answer": []
   },
   {
-    "id": 9011,
-    "question": "obieqtze mausis marjvena Rilakis dawkapunebis Sedegad moxdeba",
+    "id": 110,
+    "question": "ობიექტზე მაუსის მარჯვენა ღილაკის დაწკაპუნების შედეგად მოხდება",
     "options": [
-      "obieqtis gaxsna;",
-      "moniSvnis moxsna;",
-      "obieqtis gadaadgileba ekranze;",
-      "obieqtis konteqsturi menius gaxsna"
+      "ობიექტის გახსნა;",
+      "მონიშვნის მოხსნა;",
+      "ობიექტის გადაადგილება ეკრანზე;",
+      "ობიექტის კონტექსტური მენიუს გახსნა"
     ],
     "correct": [
       "D"
@@ -1516,13 +1516,13 @@
     "user_answer": []
   },
   {
-    "id": 9012,
-    "question": "ra aris faili?",
+    "id": 111,
+    "question": "რა არის ფაილი?",
     "options": [
-      "kompiuteris mudmiv mexsierebaSi Cawerili simboloTa mimdevroba, romelsac dasaxeleba gaaCnia",
-      "kompiuterSi arsebuli obieqtebis mosaTavsebeli saqaRalde",
-      "simboloTa nebismieri mimdevroba",
-      "lazeruli diskisa da disketebis budis saerTo dasaxeleba"
+      "კომპიუტერის მუდმივ მეხსიერებაში ჩაწერილი სიმბოლოთა მიმდევრობა, რომელსაც დასახელება გააჩნია",
+      "კომპიუტერში არსებული ობიექტების მოსათავსებელი საქაღალდე",
+      "სიმბოლოთა ნებისმიერი მიმდევრობა",
+      "ლაზერული დისკისა და დისკეტების ბუდის საერთო დასახელება"
     ],
     "correct": [
       "A"
@@ -1530,13 +1530,13 @@
     "user_answer": []
   },
   {
-    "id": 9013,
-    "question": "ras aRniSnavs internetis abreviatura WWW?",
+    "id": 112,
+    "question": "რას აღნიშნავს ინტერნეტის აბრევიატურა WWW?",
     "options": [
-      "internetis veb-gverdis struqturas",
-      "failebis gacvlis ganawess",
-      "erTian sainformacio qsels",
-      "internetis saZiebo kvanZebis erTobliobas"
+      "ინტერნეტის ვებ-გვერდის სტრუქტურას",
+      "ფაილების გაცვლის განაწერს",
+      "ერთიან საინფორმაციო ქსელს",
+      "ინტერნეტის საძიებო კვანძების ერთობლიობას"
     ],
     "correct": [
       "C"
@@ -1544,13 +1544,13 @@
     "user_answer": []
   },
   {
-    "id": 9014,
-    "question": "ratom aris sistemuri blokis ukana panelze mowyobilobaTa misaerTebeli budeebi sxvadasxva feris, formisa da zomis?",
+    "id": 113,
+    "question": "რატომ არის სისტემური ბლოკის უკანა პანელზე მოწყობილობათა მისართებელი ბუდეები სხვადასხვა ფერის, ფორმისა და ზომის?",
     "options": [
-      "budeebis fers, formasa da zomas gansazRvravs dizaineri",
-      "budis formas gansazRvravs mowyobilobis energokvebis Tavisebureba",
-      "sxvadasxva mowyobilobas sxvadasxva firmis damzadebulia da imitom",
-      "specialurad aris gakeTebuli, raTa erTi mowyobiloba sxva mowyobi­lo­­bis budeSi ar CairTos"
+      "ბუდეების ფერს, ფორმასა და ზომას განსაზღვრავს დიზაინერი",
+      "ბუდის ფორმას განსაზღვრავს მოწყობილობის ენერგოკვების თავისებურება",
+      "სხვადასხვა მოწყობილობას სხვადასხვა ფირმის დამზადებულია და იმიტომ",
+      "სპეციალურად არის გაკეთებული, რათა ერთი მოწყობილობა სხვა მოწყობილობის ბუდეში არ ჩაირთოს"
     ],
     "correct": [
       "D"
@@ -1558,8 +1558,8 @@
     "user_answer": []
   },
   {
-    "id": 9015,
-    "question": "gadaiyvane aTobiTi Tvlis sistemidan rixcvi 956 TeqvsmetobiT Tvlis sistemaSi",
+    "id": 114,
+    "question": "გადაიყვანე ათობითი თვლის სისტემიდან რიცხვი 956 თექვსმეტობით თვლის სისტემაში",
     "options": [
       "3BD",
       "2A4",
@@ -1572,8 +1572,8 @@
     "user_answer": []
   },
   {
-    "id": 9016,
-    "question": "CawereT orobiTi kodi 11010110 TeqvsmetobiT Tvlis sistemaSi",
+    "id": 115,
+    "question": "ჩაწერეთ ორობითი კოდი 11010110 თექვსმეტობით თვლის სისტემაში",
     "options": [
       "D6",
       "BB",
@@ -1586,8 +1586,8 @@
     "user_answer": []
   },
   {
-    "id": 9017,
-    "question": "SeasruleT gamoklebis operacia orobiT Tvlis sistemaSi 11010101–1101011",
+    "id": 116,
+    "question": "შეასრულეთ გამოკლების ოპერაცია ორობით თვლის სისტემაში 11010101–1101011",
     "options": [
       "10111000",
       "101000000",
@@ -1600,8 +1600,8 @@
     "user_answer": []
   },
   {
-    "id": 9018,
-    "question": "SeasruleT moqmedeba TeqvsmetobiT Tvlis sistemaSi B4EA+4D74",
+    "id": 117,
+    "question": "შეასრულეთ მოქმედება თექვსმეტობით თვლის სისტემაში B4EA+4D74",
     "options": [
       "1025E",
       "1A4C4",
@@ -1614,8 +1614,8 @@
     "user_answer": []
   },
   {
-    "id": 9019,
-    "question": "romeli klaviSi gamoiyeneba obieqtebis amorCeviT mosaniSnad?",
+    "id": 118,
+    "question": "რომელი კლავიში გამოიყენება ობიექტების არჩევით მოსანიშნად?",
     "options": [
       "Shift",
       "Ctrl",
@@ -1628,13 +1628,13 @@
     "user_answer": []
   },
   {
-    "id": 9020,
-    "question": "ras aRniSnavs sami wertili menius brZanebis Semdeg?",
+    "id": 119,
+    "question": "რას აღნიშნავს სამი წერტილი მენიუს ბრძანების შემდეგ?",
     "options": [
-      "brZanebis Sesrulebas unda davelodoT ramdenime wami",
-      "brZanebis saboloo Sesrulebamde saWiroa parametrebis SerCeva Sesabamis dialogur fanjaraSi",
-      "menius am punqts gaaCnia sakuTari qvemeniu",
-      "am SemTxvevaSi mocemuli brZanebis Sesruleba SeuZlebelia"
+      "ბრძანების შესრულებას უნდა ველოდოთ რამდენიმე წამი",
+      "ბრძანების საბოლოო შესრულებამდე საჭიროა პარამეტრების შერჩევა შესაბამის დიალოგურ ფანჯარაში",
+      "მენიუს ამ პუნქტს გააჩნია საკუთარი ქვემენიუ",
+      "ამ შემთხვევაში მოცემული ბრძანების შესრულება შეუძლებელია"
     ],
     "correct": [
       "B"
@@ -1642,13 +1642,13 @@
     "user_answer": []
   },
   {
-    "id": 9021,
-    "question": "ra aris saqaRalde?",
+    "id": 120,
+    "question": "რა არის საქაღალდე?",
     "options": [
-      "sistemuri obieqti, romelSic moTavsebulia teqstebi",
-      "lazeruli diskisa da disketebis budis saerTo dasaxeleba",
-      "diskze erTiani saxeliT Cawerili failebisa da saqaRaldeebis erToblioba",
-      "simboloTa mimdevroba, romelic programas qmnis"
+      "სისტემური ობიექტი, რომელშიც მოთავსებულია ტექსტები",
+      "ლაზერული დისკისა და დისკეტების ბუდის საერთო დასახელება",
+      "დისკზე ერთიანი სახელით ჩაწერილი ფაილებისა და საქაღალდეების ერთობლიობა",
+      "სიმბოლოთა მიმდევრობა, რომელიც პროგრამას ქმნის"
     ],
     "correct": [
       "C"
@@ -1656,8 +1656,8 @@
     "user_answer": []
   },
   {
-    "id": 9022,
-    "question": "romeli brZaneba moniSnavs yvela obieqts fanjaraSi?",
+    "id": 121,
+    "question": "რომელი ბრძანება მონიშნავს ყველა ობიექტს ფანჯარაში?",
     "options": [
       "Invert Selection",
       "Explore",
@@ -1670,8 +1670,8 @@
     "user_answer": []
   },
   {
-    "id": 9023,
-    "question": "romeli brZanebiT gauqmdeba SecdomiT Sesrulebuli moqmedeba:",
+    "id": 122,
+    "question": "რომელი ბრძანებით გაუქმდება შეცდომით შესრულებული მოქმედება:",
     "options": [
       "Delete",
       "Refresh",
@@ -1684,8 +1684,8 @@
     "user_answer": []
   },
   {
-    "id": 9024,
-    "question": "romeli brZanebiT SeiZleba obieqtisaTvis saxelis gadarqmeva?",
+    "id": 123,
+    "question": "რომელი ბრძანებით შეიძლება ობიექტისათვის სახელის გადარქმევა?",
     "options": [
       "New",
       "Rename",
@@ -1698,13 +1698,13 @@
     "user_answer": []
   },
   {
-    "id": 9025,
-    "question": "risTvis aris saWiro iarliyi?",
+    "id": 124,
+    "question": "რისთვის არის საჭირო იარლიყი?",
     "options": [
-      "piqtogramaze dasawebeblad",
-      "programis aslebis sxvadasxva saqaRaldeSi Sesanaxad",
-      "programis reklamisaTvis",
-      "programis gasaSvebad sxvadasxva adgilidan"
+      "პიქტოგრამაზე დასაწებებლად",
+      "პროგრამის ასლების სხვადასხვა საქაღალდეში შესანახად",
+      "პროგრამის რეკლამისთვის",
+      "პროგრამის გასაშვებად სხვადასხვა ადგილიდან"
     ],
     "correct": [
       "D"
@@ -1712,13 +1712,13 @@
     "user_answer": []
   },
   {
-    "id": 9026,
-    "question": "kompiuteris romeli mowyobiloba gamoiyeneba gamoTvlebis Sesasru­leb­lad?",
+    "id": 125,
+    "question": "კომპიუტერის რომელი მოწყობილობა გამოიყენება გამოთვლების შესასრულებლად?",
     "options": [
-      "procesori",
-      "monitori",
-      "vinCesteri",
-      "fleS-mexsiereba"
+      "პროცესორი",
+      "მონიტორი",
+      "ვინჩესტერი",
+      "ფლეშ-მეხსიერება"
     ],
     "correct": [
       "A"
@@ -1726,13 +1726,13 @@
     "user_answer": []
   },
   {
-    "id": 9027,
-    "question": "ras niSnavs termini \"mudmivi mexsiereba\"?",
+    "id": 126,
+    "question": "რას ნიშნავს ტერმინი \"მუდმივი მეხსიერება\"?",
     "options": [
-      "informaciis matarebelze Cawerili informacia aRar iSleba",
-      "informaciis matarebelze Cawerili informacia Tu ar wavSaleT, mudmivad Seinaxeba",
-      "informaciis matarebelze Cawerili informacia kompiuteris gamorTvis Semdeg ar iSleba da misi gamoyeneba kompiuteris momaval CarTvazec SeiZleba",
-      "imitom, rom programebis garda maTze monacemebis Cawerac SeiZleba"
+      "ინფორმაციის მატარებელზე ჩაწერილი ინფორმაცია აღარ იშლება",
+      "ინფორმაციის მატარებელზე ჩაწერილი ინფორმაცია თუ არ წავშალეთ, მუდმივად შეინახება",
+      "ინფორმაციის მატარებელზე ჩაწერილი ინფორმაცია კომპიუტერის გამორთვის შემდეგ არ იშლება და მისი გამოყენება კომპიუტერის მომავალ ჩართვაზეც შეიძლება",
+      "იმიტომ, რომ პროგრამების გარდა მათზე მონაცემების ჩაწერაც შეიძლება"
     ],
     "correct": [
       "C"
@@ -1740,13 +1740,13 @@
     "user_answer": []
   },
   {
-    "id": 9028,
-    "question": "dabali donis draiveri uzrunvelyofs",
+    "id": 127,
+    "question": "დაბალი დონის დრაივერი უზრუნველყოფს",
     "options": [
-      "Sesabamisi mowyobilobis diagnostikas",
-      "Sesabamisi mowyobilobis minimalur reJimSi funqcionirebas",
-      "operaciuli sistemis CatvirTvas",
-      "Sesabamisi mowyobilobis Cveulebriv reJimSi funqcionirebas"
+      "შესაბამისი მოწყობილობის დიაგნოსტიკას",
+      "შესაბამისი მოწყობილობის მინიმალურ რეჟიმში ფუნქციონირებას",
+      "ოპერაციული სისტემის ჩატვირთვას",
+      "შესაბამისი მოწყობილობის ჩვეულებრივ რეჟიმში ფუნქციონირებას"
     ],
     "correct": [
       "B"
@@ -1754,13 +1754,13 @@
     "user_answer": []
   },
   {
-    "id": 9029,
-    "question": "kompiuterSi maRali donis draiveris CatvirTvis SemTxvevaSi",
+    "id": 128,
+    "question": "კომპიუტერში მაღალი დონის დრაივერის ჩატვირთვის შემთხვევაში",
     "options": [
-      "dabali donis draiveri rCeba operatiul mexsierebaSi",
-      "dabali donis draiveri waiSleba operatiuli mexsierebidan da igi wyvets funqcionirebas",
-      "dabali donis draiveri waiSleba operatiuli mexsierebidan, magram agrZelebs funqcionirebas",
-      "dabali donis draiveris funqcionireba ar aris damokidebuli maRali donis draiveris CatvirTvaze."
+      "დაბალი დონის დრაივერი რჩება ოპერატიულ მეხსიერებაში",
+      "დაბალი დონის დრაივერი წაიშლება ოპერატიული მეხსიერებიდან და იგი წყვეტს ფუნქციონირებას",
+      "დაბალი დონის დრაივერი წაიშლება ოპერატიული მეხსიერებიდან, მაგრამ აგრძელებს ფუნქციონირებას",
+      "დაბალი დონის დრაივერის ფუნქციონირება არ არის დამოკიდებული მაღალი დონის დრაივერის ჩატვირთვაზე."
     ],
     "correct": [
       "B"
@@ -1768,13 +1768,41 @@
     "user_answer": []
   },
   {
-    "id": 9030,
-    "question": "operaciuli sistemis daniSnulebaa",
+    "id": 129,
+    "question": "ოპერაციული სისტემის დანიშნულებაა",
     "options": [
-      "kompiuteris aparaturis funqcionireba da diagnostika",
-      "periferiuli mowyobilobebis marTva",
-      "momxmarebelTan dialogis uzrunvelyofa",
-      "kompiuteris aparaturis funqcionireba da momxmarebelTan"
+      "კომპიუტერის აპარატურის ფუნქციონირება და დიაგნოსტიკა",
+      "პერიფერიული მოწყობილობების მართვა",
+      "მომხმარებელთან დიალოგის უზრუნველყოფა",
+      "კომპიუტერის აპარატურის ფუნქციონირება და მომხმარებელთან დიალოგი"
+    ],
+    "correct": [
+      "D"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 130,
+    "question": "პროგრამა მუშაობის დროს იმყოფება:",
+    "options": [
+      "პროცესორში;",
+      "ოპერატიულ მეხსიერებაში;",
+      "მონიტორში;",
+      "დისკზე;"
+    ],
+    "correct": [
+      "B"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 131,
+    "question": "სისტემური პროგრამული უზრუნველყოფა არ შეიცავს შემდეგი ტიპის პროგრამებს:",
+    "options": [
+      "ელექტრონულ ცხრილებს;",
+      "ოპერაციულ სისტემებს;",
+      "მომსახურე დონის პროგრამული უზრუნველყოფის უტილიტებს;",
+      "მოწყობილობათა დრაივერებს;"
     ],
     "correct": [
       "A"
@@ -1782,43 +1810,13 @@
     "user_answer": []
   },
   {
-    "id": 9031,
-    "question": "programa muSaobis dros imyofeba:",
-    "options": [
-      "procesorSi;",
-      "operatiul mexsierebaSi;",
-      "monitorSi;",
-      "disze;"
-    ],
-    "correct": [
-      "B"
-    ],
-    "user_answer": [
-      "B"
-    ]
-  },
-  {
-    "id": 9032,
-    "question": "sistemuri programuli uzrunvelyofa ar Seicavs Semdegi tipis programebs:",
-    "options": [
-      "eleqtronul cxrilebs;",
-      "operaciul sistemebs;",
-      "momsaxure donis programuli uzrunvelyofis utilitebs;",
-      "mowyobilobaTa draiverebs;"
-    ],
-    "correct": [
-      "A"
-    ],
-    "user_answer": []
-  },
-  {
-    "id": 9033,
-    "question": "romeli  operaciuli sistema ar aris mravalamocaniani?",
+    "id": 132,
+    "question": "რომელი ოპერაციული სისტემა არ არის მრავალამოცანიანი?",
     "options": [
       "Linux",
-      "MS Winduws XP",
-      "Ms Dos",
-      "MS Winduws 7"
+      "MS Windows XP",
+      "MS-DOS",
+      "MS Windows 7"
     ],
     "correct": [
       "C"
@@ -1826,13 +1824,13 @@
     "user_answer": []
   },
   {
-    "id": 9034,
-    "question": "operatiuli mexsierebis mTavari maxasiaTebelia",
+    "id": 133,
+    "question": "ოპერატიული მეხსიერების მთავარი მახასიათებელია",
     "options": [
-      "fasi",
-      "mexsierebis tipi da moculoba",
-      "mikroqsemis konstruqcia",
-      "mikrosqemis zoma"
+      "ფასი",
+      "მეხსიერების ტიპი და მოცულობა",
+      "მიკროსქემის კონსტრუქცია",
+      "მიკროსქემის ზომა"
     ],
     "correct": [
       "B"
@@ -1840,13 +1838,13 @@
     "user_answer": []
   },
   {
-    "id": 9035,
-    "question": "procesoris ZiriTadi maxasiaTebeli ar aris:",
+    "id": 134,
+    "question": "პროცესორის ძირითადი მახასიათებელი არ არის:",
     "options": [
-      "integrirebis xarisxi",
-      "mexsierebis moculoba da Cash mexsierebis moculoba",
-      "taqturi sixSire",
-      "damuSavebuli monacemebis moculoba"
+      "ინტეგრირების ხარისხი",
+      "მეხსიერების მოცულობა და Cash მეხსიერების მოცულობა",
+      "ტაქტური სიხშირე",
+      "დამუშავებული მონაცემების მოცულობა"
     ],
     "correct": [
       "D"
@@ -1854,8 +1852,8 @@
     "user_answer": []
   },
   {
-    "id": 9036,
-    "question": "romeli klaviSi ar anTebs naTuras klaviaturaze",
+    "id": 135,
+    "question": "რომელი კლავიში არ ანთებს ნათურას კლავიატურაზე",
     "options": [
       "Num Lock",
       "Print Screen",
@@ -1868,13 +1866,13 @@
     "user_answer": []
   },
   {
-    "id": 9037,
-    "question": "romeli parametriT ar ganisazRvreba ekranis gamosaxulebis xarisxi:",
+    "id": 136,
+    "question": "რომელი პარამეტრით არ განისაზღვრება ეკრანის გამოსახულების ხარისხი:",
     "options": [
-      "ekranuli gamosaxulebis Sesabamisi failis siZveliT",
-      "ekranuli wertilebis raodenobiT",
-      "ekranis ferebis raodenobiT",
-      "ekranuli mexsierebis moculobiT"
+      "ეკრანული გამოსახულების შესაბამისი ფაილის სიძველით",
+      "ეკრანული წერტილების რაოდენობით",
+      "ეკრანის ფერების რაოდენობით",
+      "ეკრანული მეხსიერების მოცულობით"
     ],
     "correct": [
       "A"
@@ -1882,13 +1880,13 @@
     "user_answer": []
   },
   {
-    "id": 9038,
-    "question": "romeli mowyobiloba uzrunvelyofs informaciis miReba-gadacemas Sor manZilze?",
+    "id": 137,
+    "question": "რომელი მოწყობილობა უზრუნველყოფს ინფორმაციის მიღება-გადაცემას შორ მანძილზე?",
     "options": [
-      "modemi",
-      "skaneri",
-      "strimeri",
-      "displei"
+      "მოდემი",
+      "სკანერი",
+      "სტრიმერი",
+      "დისპლეი"
     ],
     "correct": [
       "A"
@@ -1896,13 +1894,13 @@
     "user_answer": []
   },
   {
-    "id": 9039,
-    "question": "ganmarteT ra igulisxmeba gansazRvrebaSi: \"operaciuli sistema aris mravalamocaniani\"?",
+    "id": 138,
+    "question": "განმარტეთ რა იგულისხმება განსაზღვრებაში: \"ოპერაციული სისტემა არის მრავალამოცანიანი\"?",
     "options": [
-      "gulisxmobs erTdroulad mxolod ori programis muSaobas",
-      "gulisxmobs erTdroulad ramdenime programis muSaobas",
-      "aseTi gansazRvreba saerTod ar arsebobs",
-      "erTi da imave operaciuli sistemiT ramdenime momxmarebeli sargeblobs ise, rom yvelas Tavisi parametrebi aqvs"
+      "გულისხმობს ერთდროულად მხოლოდ ორი პროგრამის მუშაობას",
+      "გულისხმობს ერთდროულად რამდენიმე პროგრამის მუშაობას",
+      "ასეთი განსაზღვრება საერთოდ არ არსებობს",
+      "ერთი და იმავე ოპერაციული სისტემით რამდენიმე მომხმარებელი სარგებლობს ისე, რომ ყველას თავისი პარამეტრები აქვს"
     ],
     "correct": [
       "B"
@@ -1910,13 +1908,13 @@
     "user_answer": []
   },
   {
-    "id": 9040,
-    "question": "Cash-mexsierebaSi monacemebi itvirTeba",
+    "id": 139,
+    "question": "Cash-მეხსიერებაში მონაცემები იტვირთება",
     "options": [
-      "diskuri mowyobilobebidan da ZiriTadi operatiuli mexsierebidan.",
-      "mudmivi mexsierebidan.",
-      "ZiriTadi operatiuli mexsierebidan",
-      "mudmivi mexsierebidan da ZiriTadi operatiuli mexsierebidan"
+      "დისკური მოწყობილობებიდან და ძირითადი ოპერატიული მეხსიერებიდან.",
+      "მუდმივი მეხსიერებიდან.",
+      "ძირითადი ოპერატიული მეხსიერებიდან",
+      "მუდმივი მეხსიერებიდან და ძირითადი ოპერატიული მეხსიერებიდან"
     ],
     "correct": [
       "C"
@@ -1924,13 +1922,13 @@
     "user_answer": []
   },
   {
-    "id": 9041,
-    "question": "dinamikuri mexsiereba, statikur mexsierebasTan SedarebiT, gamoirCeva",
+    "id": 140,
+    "question": "დინამიკური მეხსიერება, სტატიკურ მეხსიერებასთან შედარებით, გამოირჩევა",
     "options": [
-      "ufro maRali RirebulebiT",
-      "integraciis ufro maRali xarisxiT",
-      "ufro maRali swrafqmedebiT",
-      "ufro maRali saimedoobiT"
+      "უფრო მაღალი ღირებულებით",
+      "ინტეგრაციის უფრო მაღალი ხარისხით",
+      "უფრო მაღალი სწრაფქმედებით",
+      "უფრო მაღალი საიმედოობით"
     ],
     "correct": [
       "B"
@@ -1938,13 +1936,13 @@
     "user_answer": []
   },
   {
-    "id": 9042,
-    "question": "DDR-mexsiereba warmoadgens",
+    "id": 141,
+    "question": "DDR-მეხსიერება წარმოადგენს",
     "options": [
-      "statikur asinqronul operatiul mexsierebas",
-      "statikur sinqronul operatiul mexsierebas",
-      "dinamikur asinqronul operatiul mexsierebas",
-      "dinamikur sinqronul operatiul mexsierebas"
+      "სტატიკურ ასინქრონულ ოპერატიულ მეხსიერებას",
+      "სტატიკურ სინქრონულ ოპერატიულ მეხსიერებას",
+      "დინამიკურ ასინქრონულ ოპერატიულ მეხსიერებას",
+      "დინამიკურ სინქრონულ ოპერატიულ მეხსიერებას"
     ],
     "correct": [
       "D"
@@ -1952,13 +1950,13 @@
     "user_answer": []
   },
   {
-    "id": 9043,
-    "question": "procesoris ZiriTadi maxasiaTebeli ar aris",
+    "id": 142,
+    "question": "პროცესორის ძირითადი მახასიათებელი არ არის",
     "options": [
-      "procesoris registrebis Tanrigianoba",
-      "sistemuri (FSB) saltis sixSire",
-      "sistemuri (FSB) saltis Tanrigian",
-      "damisamarTebadi mexsierebis moculoba"
+      "პროცესორის რეგისტრების თანრიგიანობა",
+      "სისტემური (FSB) სალტის სიხშირე",
+      "სისტემური (FSB) სალტის თანრიგიანობა",
+      "დამისამართებადი მეხსიერების მოცულობა"
     ],
     "correct": [
       "D"
@@ -1966,13 +1964,13 @@
     "user_answer": []
   },
   {
-    "id": 9044,
-    "question": "HyperThreating-teqnologia gamoiyeneba",
+    "id": 143,
+    "question": "Hyper-Threading ტექნოლოგია გამოიყენება",
     "options": [
-      "erTbirTvian procesorebSi",
-      "orbirTvian procesorebSi",
-      "mravalprocesorul sistemebSi",
-      "nebismier maTganSi"
+      "ერთბირთვიან პროცესორებში",
+      "ორბირთვიან პროცესორებში",
+      "მრავალპროცესორულ სისტემებში",
+      "ნებისმიერ მათგანში"
     ],
     "correct": [
       "C"
@@ -1980,13 +1978,13 @@
     "user_answer": []
   },
   {
-    "id": 9045,
-    "question": "programa draiveris daniSnulebaa",
+    "id": 144,
+    "question": "პროგრამა დრაივერის დანიშნულებაა",
     "options": [
-      "mowyobilobaTa marTva",
-      "mexsierebis Semowmeba",
-      "informaciis ganawileba mexsierebaSi",
-      "procesoris programuli marTva"
+      "მოწყობილობათა მართვა",
+      "მეხსიერების შემოწმება",
+      "ინფორმაციის განაწილება მეხსიერებაში",
+      "პროცესორის პროგრამული მართვა"
     ],
     "correct": [
       "A"
@@ -1994,13 +1992,13 @@
     "user_answer": []
   },
   {
-    "id": 9046,
-    "question": "romeli ar aris ugamtaro tipis mowyobiloba:",
+    "id": 145,
+    "question": "რომელი არ არის უგამტარო ტიპის მოწყობილობა:",
     "options": [
-      "infrawiTeli",
-      "radiosixSiruli",
-      "Bluetooth mxardaWera",
-      "USB mxardaWera"
+      "ინფრაწითელი",
+      "რადიოსიხშირული",
+      "Bluetooth მხარდაჭერა",
+      "USB მხარდაჭერა"
     ],
     "correct": [
       "D"
@@ -2008,13 +2006,13 @@
     "user_answer": []
   },
   {
-    "id": 9047,
-    "question": "ra daniSnuleba aqvs FSB  saltes?",
+    "id": 146,
+    "question": "რა დანიშნულება აქვს FSB სალტეს?",
     "options": [
-      "procesoris sistemuri saltis komponentebTan damakavSirebeli salte",
-      "kontroleri, romelic periferiul interfeiss sistemur saltesTan akavSirebs",
-      "Tanamedrove universaluri mimdevrobiTi salte",
-      "universaluri asinqronuli mimReb-gadamcemi mikrosqema"
+      "პროცესორის სისტემური სალტის კომპონენტებთან დამაკავშირებელი სალტე",
+      "კონტროლერი, რომელიც პერიფერიულ ინტერფეისს სისტემურ სალტესთან აკავშირებს",
+      "თანამედროვე უნივერსალური მიმდევრობითი სალტე",
+      "უნივერსალური ასინქრონული მიმღებ-გადამცემი მიკროსქემა"
     ],
     "correct": [
       "A"
@@ -2022,13 +2020,13 @@
     "user_answer": []
   },
   {
-    "id": 9048,
-    "question": "kompiuteris cvlad mexsierebas miekuTvneba",
+    "id": 147,
+    "question": "კომპიუტერის ცვლად მეხსიერებას მიეკუთვნება",
     "options": [
-      "vinCesteri",
-      "skaneri",
-      "operatiuli mexsiereba",
-      "kompaqt-diski"
+      "ვინჩესტერი",
+      "სკანერი",
+      "ოპერატიული მეხსიერება",
+      "კომპაქტ-დისკი"
     ],
     "correct": [
       "C"
@@ -2036,13 +2034,13 @@
     "user_answer": []
   },
   {
-    "id": 9049,
-    "question": "rodis Seasrulebs procedura POSTkompiuteris testirebas?",
+    "id": 148,
+    "question": "როდის შეასრულებს პროცედურა POST კომპიუტერის ტესტირებას?",
     "options": [
-      "operaciuli sistemis CatvirTvis Semdeg",
-      "operaciuli sistemis CatvirTvamde",
-      "rogorc operaciuli sistemis CatvirTvamde, ise operaciuli sistemis CatvirTvis Semdeg",
-      "testireba damokidebulia momxmareblis mier dayenebul parametrebze"
+      "ოპერაციული სისტემის ჩატვირთვის შემდეგ",
+      "ოპერაციული სისტემის ჩატვირთვამდე",
+      "როგორც ოპერაციული სისტემის ჩატვირთვამდე, ისე ოპერაციული სისტემის ჩატვირთვის შემდეგ",
+      "ტესტირება დამოკიდებულია მომხმარებლის მიერ დაყენებულ პარამეტრებზე"
     ],
     "correct": [
       "B"
@@ -2050,13 +2048,13 @@
     "user_answer": []
   },
   {
-    "id": 9050,
-    "question": "ra aris skaneri?",
+    "id": 149,
+    "question": "რა არის სკანერი?",
     "options": [
-      "eleqtronuli aslis gadamRebi mowyobiloba",
-      "sabeWdi mowyobiloba",
-      "informaciis Sor manZilze gadasacemi mowyobiloba",
-      "saxazavi mowyobiloba"
+      "ელექტრონული ასლის გადამღები მოწყობილობა",
+      "საბეჭდი მოწყობილობა",
+      "ინფორმაციის შორ მანძილზე გადასაცემი მოწყობილობა",
+      "სახაზავი მოწყობილობა"
     ],
     "correct": [
       "A"
@@ -2064,13 +2062,13 @@
     "user_answer": []
   },
   {
-    "id": 9051,
-    "question": "algoriTms, romelSic yvela moqmedeba erTimeoris miyolebiT srul­de­ba da  gamoTvlebis mimarTuleba sawyisi monacemebis konkretul mniSv­nelobebze ar aris damokidebuli, ewodeba:",
+    "id": 150,
+    "question": "ალგორითმს, რომელშიც ყველა მოქმედება ერთიმეორის მიყოლებით სრულდება და გამოთვლების მიმართულება საწყისი მონაცემების კონკრეტულ მნიშვნელობებზე არ არის დამოკიდებული, ეწოდება:",
     "options": [
-      "wrfivi struqturis algoriTmi",
-      "ganStoebuli struqturis algoriTmi",
-      "cikluri struqturis algoriTmi",
-      "arawrfivi struqturis algoriTmi"
+      "წრფივი სტრუქტურის ალგორითმი",
+      "განშტოებული სტრუქტურის ალგორითმი",
+      "ციკლური სტრუქტურის ალგორითმი",
+      "არაწრფივი სტრუქტურის ალგორითმი"
     ],
     "correct": [
       "A"
@@ -2078,13 +2076,13 @@
     "user_answer": []
   },
   {
-    "id": 9052,
-    "question": "algoriTms, romelSic moqmedebaTa Sesrulebis Tanmimdvroba da gamoTvlebis mimar­Tuleba logikuri pirobis mixedviT icvleba, ewodeba:",
+    "id": 151,
+    "question": "ალგორითმს, რომელშიც მოქმედებათა შესრულების თანმიმდევრობა და გამოთვლების მიმართულება ლოგიკური პირობის მიხედვით იცვლება, ეწოდება:",
     "options": [
-      "wrfivi struqturis algoriTmi",
-      "ganStoebuli struqturis algoriTmi",
-      "cxriluri struqturis algoriTmi",
-      "cikluri struqturis algoriTmi"
+      "წრფივი სტრუქტურის ალგორითმი",
+      "განშტოებული სტრუქტურის ალგორითმი",
+      "ცხრილური სტრუქტურის ალგორითმი",
+      "ციკლური სტრუქტურის ალგორითმი"
     ],
     "correct": [
       "B"
@@ -2092,13 +2090,13 @@
     "user_answer": []
   },
   {
-    "id": 9053,
-    "question": "cikls, romelSic elementarul proceduraTa gameorebis ricxvis\nwi­nas­war gansazRvra SeuZlebelia, ewodeba:",
+    "id": 152,
+    "question": "ციკლს, რომელშიც ელემენტარულ პროცედურათა გამეორების რიცხვის წინასწარ განსაზღვრა შეუძლებელია, ეწოდება:",
     "options": [
-      "iteraciuli cikli",
-      "ariTmetikuli cikli",
-      "geometriuli cikli",
-      "usasrulo cikli"
+      "იტერაციული ციკლი",
+      "არითმეტიკული ციკლი",
+      "გეომეტრიული ციკლი",
+      "უსასრულო ციკლი"
     ],
     "correct": [
       "A"
@@ -2106,13 +2104,13 @@
     "user_answer": []
   },
   {
-    "id": 9054,
-    "question": "cikls, romelic Tavis tanSi Seicavs sxva ciklebs, ewodeba:",
+    "id": 153,
+    "question": "ციკლს, რომელიც თავის ტანში შეიცავს სხვა ციკლებს, ეწოდება:",
     "options": [
-      "martivi cikli",
-      "Sida cikli",
-      "gare cikli",
-      "usasrulo cikli"
+      "მარტივი ციკლი",
+      "შიდა ციკლი",
+      "გარე ციკლი",
+      "უსასრულო ციკლი"
     ],
     "correct": [
       "C"
@@ -2120,13 +2118,13 @@
     "user_answer": []
   },
   {
-    "id": 9055,
-    "question": "algoriTmis blok-sqemaSi informaciis nakadis xazebis ZiriTad\nmimar­Tu­­lebad miRebulia",
+    "id": 154,
+    "question": "ალგორითმის ბლოკ-სქემაში ინფორმაციის ნაკადის ხაზების ძირითად მიმართულებად მიღებულია",
     "options": [
-      "mimarTuleba zemodan qvemoT da marcxnidan marjvniv",
-      "mimarTuleba zemodan qvemoT da marjvnidan marcxniv",
-      "mimarTuleba qvemodan zemoT da marcxnidan marjvniv",
-      "mimarTuleba qvemodan zemoT da marjvnidan marcxniv"
+      "მიმართულება ზემოდან ქვემოთ და მარცხნიდან მარჯვნივ",
+      "მიმართულება ზემოდან ქვემოთ და მარჯვნიდან მარცხნივ",
+      "მიმართულება ქვემოდან ზემოთ და მარცხნიდან მარჯვნივ",
+      "მიმართულება ქვემოდან ზემოთ და მარჯვნიდან მარცხნივ"
     ],
     "correct": [
       "A"
@@ -2134,13 +2132,13 @@
     "user_answer": []
   },
   {
-    "id": 9056,
-    "question": "ras uwodeben ciklis mmarTvel parametrs, romlis mniSvne­lo­ba\nTan­mimdevrobiT mcirdeba:",
+    "id": 155,
+    "question": "რას უწოდებენ ციკლის მმართველ პარამეტრს, რომლის მნიშვნელობა თანმიმდევრობით მცირდება:",
     "options": [
-      "ukumTvlels",
-      "bijs",
-      "pirdapir mTvlels",
-      "indeqss"
+      "უკუმთვლელს",
+      "ბიჯს",
+      "პირდაპირ მთვლელს",
+      "ინდექსს"
     ],
     "correct": [
       "A"
@@ -2148,13 +2146,13 @@
     "user_answer": []
   },
   {
-    "id": 9057,
-    "question": "risi toli SeiZleba iyos im cvladis sawyisi mniSvneloba, romelSic grovdeba gar­kve­uli ricxviTi monacemebis namravli:",
+    "id": 156,
+    "question": "რისი ტოლი შეიძლება იყოს იმ ცვლადის საწყისი მნიშვნელობა, რომელშიც გროვდება გარკვეული რიცხვითი მონაცემების ნამრავლი:",
     "options": [
-      "nulis",
-      "erTis",
-      "oris",
-      "aTis"
+      "ნულის",
+      "ერთის",
+      "ორის",
+      "ათის"
     ],
     "correct": [
       "B"
@@ -2162,13 +2160,13 @@
     "user_answer": []
   },
   {
-    "id": 9058,
-    "question": "ras udris erTganzomilebiani masivis pirveli elementis indeqsis\nsawyisi mniSvneloba da misi cvlilebis biji, Tu saWiroa masividan\nluwindeqsiani elementebis amor­Ce­va",
+    "id": 157,
+    "question": "რას უდრის ერთგანზომილებიანი მასივის პირველი ელემენტის ინდექსის საწყისი მნიშვნელობა და მისი ცვლილების ბიჯი, თუ საჭიროა მასივიდან ლუწინდექსიანი ელემენტების ამორჩევა",
     "options": [
-      "indeqsi - ors, cvlilebis biji - erTs",
-      "indeqsi - erTs, cvlilebis biji - ors",
-      "indeqsi - erTs, cvlilebis biji - erTs",
-      "indeqsi - ors, cvlilebis biji – ors"
+      "ინდექსი - ორს, ცვლილების ბიჯი - ერთს",
+      "ინდექსი - ერთს, ცვლილების ბიჯი - ორს",
+      "ინდექსი - ერთს, ცვლილების ბიჯი - ერთს",
+      "ინდექსი - ორს, ცვლილების ბიჯი – ორს"
     ],
     "correct": [
       "D"
@@ -2176,13 +2174,13 @@
     "user_answer": []
   },
   {
-    "id": 9059,
-    "question": "ras vuwodebT erTnairi maxasiaTeblebis mqone skalaruli cvladebis marTkuTxa cxrils?",
+    "id": 158,
+    "question": "რას ვუწოდებთ ერთნაირი მახასიათებლების მქონე სკალარული ცვლადების მართკუთხა ცხრილს?",
     "options": [
-      "matricas",
-      "struqturas",
-      "veqtors",
-      "funqcias"
+      "მატრიცას",
+      "სტრუქტურას",
+      "ვექტორს",
+      "ფუნქციას"
     ],
     "correct": [
       "A"
@@ -2190,41 +2188,13 @@
     "user_answer": []
   },
   {
-    "id": 9060,
-    "question": "risi toli SeiZleba iyos im cvladis sawyisi mniSvneloba, romelSic grovdeba gar­kve­uli ricxviTi monacemebis jami:",
+    "id": 159,
+    "question": "ალგორითმიზაციის თეორიაში ″=″ სიმბოლო აღნიშნავს:",
     "options": [
-      "nulis",
-      "erTis",
-      "oris",
-      "aTis"
-    ],
-    "correct": [
-      "A"
-    ],
-    "user_answer": []
-  },
-  {
-    "id": 9061,
-    "question": "qvemoT CamoTvlili pirovnebebidan romlis saxelTanaa dakavSirebuli algoriTmis cneba:",
-    "options": [
-      "evklides",
-      "eratosTenes",
-      "alxorezmis",
-      "fibonaCis"
-    ],
-    "correct": [
-      "C"
-    ],
-    "user_answer": []
-  },
-  {
-    "id": 9062,
-    "question": "ras gansazRvravs evklides algoriTmi:",
-    "options": [
-      "ori naturaluri ricxvis umcires saerTo jerads",
-      "ori naturaluri ricxvis udides saerTo gamyofs",
-      "martiv ricxvebs",
-      "mTel ricxvSi Semaval cifrTa jams"
+      "ტოლობის ოპერაციას",
+      "მინიჭების ოპერაციას",
+      "დეკრემენტის ოპერაციას",
+      "ინკრემენტის ოპერაციას"
     ],
     "correct": [
       "B"
@@ -2232,13 +2202,13 @@
     "user_answer": []
   },
   {
-    "id": 9063,
-    "question": "ras gansazRvravs eratosTenes cxavis algoriTmi:",
+    "id": 160,
+    "question": "რისი ტოლი შეიძლება იყოს იმ ცვლადის საწყისი მნიშვნელობა, რომელშიც გროვდება გარკვეული რიცხვითი მონაცემების ჯამი:",
     "options": [
-      "martiv ricxvebs",
-      "luw ricxvebs",
-      "kent ricxvebs",
-      "mTel ricxvSi Semaval cifrTa namravls"
+      "ნულის",
+      "ერთის",
+      "ორის",
+      "ათის"
     ],
     "correct": [
       "A"
@@ -2246,13 +2216,13 @@
     "user_answer": []
   },
   {
-    "id": 9064,
-    "question": "ras warmoadgens ricxvTa Semdegi mimdevroba: 1 1 2 3 5 8 13 21...",
+    "id": 161,
+    "question": "ქვემოთ ჩამოთვლილი პიროვნებებიდან რომლის სახელთანაა დაკავშირებული ალგორითმის ცნება:",
     "options": [
-      "arauaryofiTi mTeli ricxvebis faqtorialebis mniSvnelobebs",
-      "SemTxveviT ricxvebs",
-      "fibonaCis ricxvebs",
-      "arauaryofiTi mTeli ricxvebis jamis mniSvnelobebs"
+      "ევკლიდეს",
+      "ერატოსთენეს",
+      "ალ-ხვარაზმის",
+      "ფიბონაჩის"
     ],
     "correct": [
       "C"
@@ -2260,13 +2230,27 @@
     "user_answer": []
   },
   {
-    "id": 9065,
-    "question": "cvlilebebis gaTvaliswinebiT romeli algoriTmi SegviZlia gamoviyenoT ori naturaluri ricxvis umciresi saerTo jeradis gansazRvris dros:",
+    "id": 162,
+    "question": "რას განსაზღვრავს ევკლიდეს ალგორითმი:",
     "options": [
-      "evklides algoriTmi",
-      "eratosTenes algoriTmi",
-      "wrfivi Zebnis meTodi",
-      "dixotomiis meTodi"
+      "ორი ნატურალური რიცხვის უმცირეს საერთო ჯერადს",
+      "ორი ნატურალური რიცხვის უდიდეს საერთო გამყოფს",
+      "მარტივ რიცხვებს",
+      "მთელ რიცხვში შემავალ ციფრთა ჯამს"
+    ],
+    "correct": [
+      "B"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 163,
+    "question": "რას განსაზღვრავს ერატოსთენეს საცრის ალგორითმი:",
+    "options": [
+      "მარტივ რიცხვებს",
+      "ლუწ რიცხვებს",
+      "კენტ რიცხვებს",
+      "მთელ რიცხვში შემავალ ციფრთა ნამრავლს"
     ],
     "correct": [
       "A"
@@ -2274,13 +2258,41 @@
     "user_answer": []
   },
   {
-    "id": 9066,
-    "question": "CamoTvlilTagan romelia masivebSi saWiro mniSvnelobis elementis Zebnis yvelaze swrafi meTodi:",
+    "id": 164,
+    "question": "რას წარმოადგენს რიცხვთა შემდეგი მიმდევრობა: 1 1 2 3 5 8 13 21...",
     "options": [
-      "“CaZirvis” meTodi",
-      "martivi gadanacvlebis meTodi",
-      "wrfivi Zebnis meTodi",
-      "dixotomiis meTodi"
+      "არაუარყოფითი მთელი რიცხვების ფაქტორიალების მნიშვნელობებს",
+      "შემთხვევით რიცხვებს",
+      "ფიბონაჩის რიცხვებს",
+      "არაუარყოფითი მთელი რიცხვების ჯამის მნიშვნელობებს"
+    ],
+    "correct": [
+      "C"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 165,
+    "question": "ცვლილებების გათვალისწინებით რომელი ალგორითმი შეგვიძლია გამოვიყენოთ ორი ნატურალური რიცხვის უმცირესი საერთო ჯერადის განსაზღვრის დროს:",
+    "options": [
+      "ევკლიდეს ალგორითმი",
+      "ერატოსთენეს ალგორითმი",
+      "წრფივი ძებნის მეთოდი",
+      "დიქოტომიის მეთოდი"
+    ],
+    "correct": [
+      "A"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 166,
+    "question": "ჩამოთვლილთაგან რომელია მასივებში საჭირო მნიშვნელობის ელემენტის ძებნის ყველაზე სწრაფი მეთოდი:",
+    "options": [
+      "“ჩაძირვის” მეთოდი",
+      "მარტივი გადანაცვლების მეთოდი",
+      "წრფივი ძებნის მეთოდი",
+      "დიქოტომიის მეთოდი"
     ],
     "correct": [
       "D"
@@ -2288,13 +2300,13 @@
     "user_answer": []
   },
   {
-    "id": 9067,
-    "question": "CamoTvlilTagan romeli warmoadgens algoriTmis Tvisebas:",
+    "id": 167,
+    "question": "ჩამოთვლილთაგან რომელი წარმოადგენს ალგორითმის თვისებას:",
     "options": [
-      "universaloba",
-      "Sedegianoba",
-      "gasageboba",
-      "zemoT warmodgenili yvela Tviseba"
+      "უნივერსალობა",
+      "შედეგიანობა",
+      "გასაგებობა",
+      "ზემოთ წარმოდგენილი ყველა თვისება"
     ],
     "correct": [
       "D"
@@ -2302,13 +2314,13 @@
     "user_answer": []
   },
   {
-    "id": 9068,
-    "question": "romeli meTodi warmoadgens “CaZirvis” meTods:",
+    "id": 168,
+    "question": "რომელი მეთოდი წარმოადგენს “ჩაძირვის” მეთოდს:",
     "options": [
-      "“buStisebri” daxarisxebis meTodi",
-      "martivi gadanacvlebis meTodi",
-      "wrfivi Zebnis meTodi",
-      "kombinirebuli daxarisxebis meTodi"
+      "“ბუშტოვანი” დახარისხების მეთოდი",
+      "მარტივი გადანაცვლების მეთოდი",
+      "წრფივი ძებნის მეთოდი",
+      "კომბინირებული დახარისხების მეთოდი"
     ],
     "correct": [
       "A"
@@ -2316,13 +2328,13 @@
     "user_answer": []
   },
   {
-    "id": 9069,
-    "question": "masivSi Semavali kenti mniSvnelobis elementebis saSualo ariTmetikuli tolia:",
+    "id": 169,
+    "question": "მასივში შემავალი კენტი მნიშვნელობის ელემენტების საშუალო არითმეტიკული ტოლია:",
     "options": [
-      "masivis elementebis jami gayofili kenti mniSvnelobis elementebis rao­de­no­baze",
-      "masivis kenti mniSvnelobis elementebis jami gayofili kenti mniSvnelo­bis elementebis rao­de­no­baze",
-      "masivis elementebis jami gayofili maT rao­de­no­baze",
-      "masivis kenti mniSvnelobis elementebis jami gayofili masivis elemen­tebis saerTo rao­de­no­baze"
+      "მასივის ელემენტების ჯამი გაყოფილი კენტი მნიშვნელობის ელემენტების რაოდენობაზე",
+      "მასივის კენტი მნიშვნელობის ელემენტების ჯამი გაყოფილი კენტი მნიშვნელობის ელემენტების რაოდენობაზე",
+      "მასივის ელემენტების ჯამი გაყოფილი მათ რაოდენობაზე",
+      "მასივის კენტი მნიშვნელობის ელემენტების ჯამი გაყოფილი მასივის ელემენტების საერთო რაოდენობაზე"
     ],
     "correct": [
       "B"
@@ -2330,13 +2342,13 @@
     "user_answer": []
   },
   {
-    "id": 9070,
-    "question": "kvadratul matricaSi romeli elementebia ganTavsebuli mTavari diagonalis zemoT:",
+    "id": 170,
+    "question": "კვადრატულ მატრიცაში რომელი ელემენტებია განთავსებული მთავარი დიაგონალის ზემოთ:",
     "options": [
-      "elementebi, romelTa striqonis indeqsi metia svetis indeqsze",
-      "elementebi, romelTa striqonis indeqsi naklebia svetis indeqsze",
-      "elementebi, romელTa striqonis indeqsi tolia svetis indeqsis",
-      "elementebi, romelTa striqonis indeqsi metia an toli svetis indeqsis"
+      "ელემენტები, რომელთა სტრიქონის ინდექსი მეტია სვეტის ინდექსზე",
+      "ელემენტები, რომელთა სტრიქონის ინდექსი ნაკლებია სვეტის ინდექსზე",
+      "ელემენტები, რომელთა სტრიქონის ინდექსი ტოლია სვეტის ინდექსის",
+      "ელემენტები, რომელთა სტრიქონის ინდექსი მეტია ან ტოლი სვეტის ინდექსის"
     ],
     "correct": [
       "B"
@@ -2344,13 +2356,13 @@
     "user_answer": []
   },
   {
-    "id": 9071,
-    "question": "ra ewodeba algoriTmis Tvisebas, romlis drosac algoriTmi swor Sedegs iZleva nebismieri dasaSvebi sawyisi mniSvnelobebis dros:",
+    "id": 171,
+    "question": "რა ეწოდება ალგორითმის თვისებას, რომლის დროსაც ალგორითმი სწორ შედეგს იძლევა ნებისმიერი დასაშვები საწყისი მნიშვნელობების დროს:",
     "options": [
-      "Sedegianoba",
-      "gasageboba",
-      "universaloba",
-      "diskretuloba"
+      "შედეგიანობა",
+      "გასაგებობა",
+      "უნივერსალობა",
+      "დისკრეტულობა"
     ],
     "correct": [
       "C"
@@ -2358,13 +2370,13 @@
     "user_answer": []
   },
   {
-    "id": 9072,
-    "question": "ras gulisxmobs algoriTmis Sedegianobis Tviseba:",
+    "id": 172,
+    "question": "რას გულისხმობს ალგორითმის შედეგიანობის თვისება:",
     "options": [
-      "nebismier SemTxvevaSi swori Sedegis miRebas",
-      "sasrul droSi usasrulo bijebis SemTxvevaSi Sedegis miRebas",
-      "sasrul droSi sasruli bijebis SemTxvevaSi swori Sedegis miRebas",
-      "algoriTmis warmodgenas calkeuli nawilebis saxiT"
+      "ნებისმიერ შემთხვევაში სწორი შედეგის მიღებას",
+      "სასრულ დროში უსასრულო ბიჯების შემთხვევაში შედეგის მიღებას",
+      "სასრულ დროში სასრული ბიჯების შემთხვევაში სწორი შედეგის მიღებას",
+      "ალგორითმის წარმოდგენას ცალკეული ნაწილების სახით"
     ],
     "correct": [
       "C"
@@ -2372,13 +2384,13 @@
     "user_answer": []
   },
   {
-    "id": 9073,
-    "question": "ra formiT SeiZleba warmovadginoT algoriTmi:",
+    "id": 173,
+    "question": "რა ფორმით შეიძლება წარმოვადგინოთ ალგორითმი:",
     "options": [
-      "cxriluri formiT",
-      "fsevdokodebis saxiT",
-      "grafikuli formiT",
-      "zemoT CamoTvlili nebismieri formiT"
+      "ცხრილური ფორმით",
+      "ფსევდოკოდების სახით",
+      "გრაფიკული ფორმით",
+      "ზემოთ ჩამოთვლილი ნებისმიერი ფორმით"
     ],
     "correct": [
       "D"
@@ -2386,13 +2398,13 @@
     "user_answer": []
   },
   {
-    "id": 9074,
-    "question": "CamoTvlilTagan romeli warmoadgens algoriTmebis aratradiciul (araklasikur) variants:",
+    "id": 174,
+    "question": "ჩამოთვლილთაგან რომელი წარმოადგენს ალგორითმების არატრადიციულ (არაკლასიკურ) ვარიანტს:",
     "options": [
-      "ganStoebadi struqturis algoriTmebi",
-      "genetikuri algoriTmebi",
-      "cikluri struqturis algoriTmebi",
-      "wrfivi struqturis algoriTmebi"
+      "განშტოებადი სტრუქტურის ალგორითმები",
+      "გენეტიკური ალგორითმები",
+      "ციკლური სტრუქტურის ალგორითმები",
+      "წრფივი სტრუქტურის ალგორითმები"
     ],
     "correct": [
       "B"
@@ -2400,13 +2412,13 @@
     "user_answer": []
   },
   {
-    "id": 9075,
-    "question": "daprogramebaSi romeli mmarTveli struqtura ar arsebobs?",
+    "id": 175,
+    "question": "დაპროგრამებაში რომელი მმართველი სტრუქტურა არ არსებობს?",
     "options": [
-      "wrfivi",
-      "ganStoebadi",
-      "cikluri",
-      "standartuli"
+      "წრფივი",
+      "განშტოებადი",
+      "ციკლური",
+      "სტანდარტული"
     ],
     "correct": [
       "D"
@@ -2414,13 +2426,13 @@
     "user_answer": []
   },
   {
-    "id": 9076,
-    "question": "ra ewodeba logikuri pirobis mixedviT ciklis Sewyvetis process?",
+    "id": 176,
+    "question": "რა ეწოდება ლოგიკური პირობის მიხედვით ციკლის შეწყვეტის პროცესს?",
     "options": [
-      "programis Cacikvla",
-      "rekursiis movlena",
-      "ciklidan alternatiuli gamosvla",
-      "rTuli cikluri procesi"
+      "პროგრამის ჩაციკვლა",
+      "რეკურსიის მოვლენა",
+      "ციკლიდან ალტერნატიული გამოსვლა",
+      "რთული ციკლური პროცესი"
     ],
     "correct": [
       "C"
@@ -2428,13 +2440,13 @@
     "user_answer": []
   },
   {
-    "id": 9077,
-    "question": "masivSi TviToeuli cvladis indeqsebis raodenoba gansazRvravs:",
+    "id": 177,
+    "question": "მასივში თითოეული ცვლადის ინდექსების რაოდენობა განსაზღვრავს:",
     "options": [
-      "masivis zomas",
-      "masivis ganzomilebas",
-      "masivis sawyis misamarTs kompiuteris mexsierebaSi",
-      "masivis elementebis raodenobas"
+      "მასივის ზომას",
+      "მასივის განზომილებას",
+      "მასივის საწყის მისამართს კომპიუტერის მეხსიერებაში",
+      "მასივის ელემენტების რაოდენობას"
     ],
     "correct": [
       "B"
@@ -2442,13 +2454,13 @@
     "user_answer": []
   },
   {
-    "id": 9078,
-    "question": "masivSi Semavali elementebis raodenoba gansazRvravs:",
+    "id": 178,
+    "question": "მასივში შემავალი ელემენტების რაოდენობა განსაზღვრავს:",
     "options": [
-      "masivis zomas",
-      "masivis ganzomilebas",
-      "indeqsebis raodenobas",
-      "masivis elementebis mier egm-is mexsierebis dakavebul ujredebs"
+      "მასივის ზომას",
+      "მასივის განზომილებას",
+      "ინდექსების რაოდენობას",
+      "მასივის ელემენტების მიერ ეგმ-ის მეხსიერების დაკავებულ უჯრედებს"
     ],
     "correct": [
       "A"
@@ -2456,13 +2468,13 @@
     "user_answer": []
   },
   {
-    "id": 9079,
-    "question": "ciklis mmarTveli parametris sawyisi mniSvneloba naklebia mis saboloo mniSvnelobaze. rogori unda iyos mmarTveli parametris cvlilebis biji, rom programa ar Cai­cik­los?",
+    "id": 179,
+    "question": "ციკლის მმართველი პარამეტრის საწყისი მნიშვნელობა ნაკლებია მის საბოლოო მნიშვნელობაზე. როგორი უნდა იყოს მმართველი პარამეტრის ცვლილების ბიჯი, რომ პროგრამა არ ჩაიციკლოს?",
     "options": [
-      "dadebiTi",
-      "uaryofiTi",
-      "nuli",
-      "nulisgan gansxvavebuli"
+      "დადებითი",
+      "უარყოფითი",
+      "ნული",
+      "ნულისგან განსხვავებული"
     ],
     "correct": [
       "A"
@@ -2470,13 +2482,13 @@
     "user_answer": []
   },
   {
-    "id": 9080,
-    "question": "masivis elementebis dalagebas maTi zrdadobis an klebadobis\nmixedviT ewodeba:",
+    "id": 180,
+    "question": "მასივის ელემენტების დალაგებას მათი ზრდადობის ან კლებადობის მიხედვით ეწოდება:",
     "options": [
-      "kompilacia",
-      "interpretacia",
-      "redaqtireba",
-      "daxarisxeba"
+      "კომპილაცია",
+      "ინტერპრეტაცია",
+      "რედაქტირება",
+      "დახარისხება"
     ],
     "correct": [
       "D"
@@ -2484,13 +2496,13 @@
     "user_answer": []
   },
   {
-    "id": 9081,
-    "question": "logikuri \"da\" operaciis Sesasruleblad sakmarisia:",
+    "id": 181,
+    "question": "ლოგიკური \"და\" ოპერაციის შესასრულებლად საკმარისია:",
     "options": [
-      "mocemuli pirobebidan erT-erTis WeSmariteba",
-      "mocemuli pirobebis mcdaroba",
-      "mocemuli pirobebis WeSmaritoba",
-      "igi sruldeba WeSmariteba-mcdarobis pirobis damoukideblad"
+      "მოცემული პირობებიდან ერთ-ერთის ჭეშმარიტება",
+      "მოცემული პირობების მცდარობა",
+      "მოცემული პირობების ჭეშმარიტობა",
+      "იგი სრულდება ჭეშმარიტება-მცდარობის პირობის დამოუკიდებლად"
     ],
     "correct": [
       "C"
@@ -2498,13 +2510,13 @@
     "user_answer": []
   },
   {
-    "id": 9082,
-    "question": "ariTmetikuli operaciebis Sesrulebis Tanmimdevroba prioritetebis\nmixedviT Semdegia:",
+    "id": 182,
+    "question": "არითმეტიკული ოპერაციების შესრულების თანმიმდევრობა პრიორიტეტების მიხედვით შემდეგია:",
     "options": [
-      "Sekreba, gamokleba, gamravleba, gayofa",
-      "gayofa, Sekreba, gamravleba, gamokleba",
-      "gamravleba, gayofa, Sekreba, gamokleba",
-      "ar aqvs arsebiTi mniSvneloba"
+      "შეკრება, გამოკლება, გამრავლება, გაყოფა",
+      "გაყოფა, შეკრება, გამრავლება, გამოკლება",
+      "გამრავლება, გაყოფა, შეკრება, გამოკლება",
+      "არ აქვს არსებითი მნიშვნელობა"
     ],
     "correct": [
       "C"
@@ -2512,13 +2524,13 @@
     "user_answer": []
   },
   {
-    "id": 9083,
-    "question": "rogoria miniWebis operaciis asociaturoba:",
+    "id": 183,
+    "question": "როგორია მინიჭების ოპერაციის ასოციატურობა:",
     "options": [
-      "marcxnidan marjvniv",
-      "marjvnidan marcxniv",
-      "nebismieri mimarTulebiT",
-      "operaciis aRmniSvneli niSnidan marjvniv"
+      "მარცხნიდან მარჯვნივ",
+      "მარჯვნიდან მარცხნივ",
+      "ნებისმიერი მიმართულებით",
+      "ოპერაციის აღმნიშვნელი ნიშნიდან მარჯვნივ"
     ],
     "correct": [
       "B"
@@ -2526,13 +2538,13 @@
     "user_answer": []
   },
   {
-    "id": 9084,
-    "question": "CamoTvlilTagan romeli ar wamoadgens obieqtze orientirebuli daprogramebis ZiriTad princips:",
+    "id": 184,
+    "question": "ჩამოთვლილთაგან რომელი არ წარმოადგენს ობიექტზე ორიენტირებული დაპროგრამების ძირითად პრინციპს:",
     "options": [
-      "inkafsulacia",
-      "memkvidreobiToba",
-      "kompozicia",
-      "polimorfizmi"
+      "ინკაფსულაცია",
+      "მემკვიდრეობითობა",
+      "კომპოზიცია",
+      "პოლიმორფიზმი"
     ],
     "correct": [
       "C"
@@ -2540,13 +2552,13 @@
     "user_answer": []
   },
   {
-    "id": 9085,
-    "question": "rekursiuls warmoadgens funqcia, romelsac SeuZlia:",
+    "id": 185,
+    "question": "რეკურსიულს წარმოადგენს ფუნქცია, რომელსაც შეუძლია:",
     "options": [
-      "sakuTari Tavis gamოZaxeba",
-      "sxva funqciis gamoZaxeba",
-      "mxolod gamoTvlebis warmoeba",
-      "mxolod teqsturi Setyobinebis gamotana"
+      "საკუთარი თავის გამოძახება",
+      "სხვა ფუნქციის გამოძახება",
+      "მხოლოდ გამოთვლების წარმოება",
+      "მხოლოდ ტექსტური შეტყობინების გამოტანა"
     ],
     "correct": [
       "A"
@@ -2554,13 +2566,13 @@
     "user_answer": []
   },
   {
-    "id": 9086,
-    "question": "daprogramebaSi dauSvebelia:",
+    "id": 186,
+    "question": "დაპროგრამებაში დაუშვებელია:",
     "options": [
-      "funqciaSi sxva funqciis prototipis aRwera",
-      "funqciaSi sxva funqciis aRwera",
-      "mTavar funqciaSi nebismieri sxva funqciis gamoZaxeba",
-      "programaSi funqciis prototipis Cawera"
+      "ფუნქციაში სხვა ფუნქციის პროტოტიპის აღწერა",
+      "ფუნქციაში სხვა ფუნქციის აღწერა",
+      "მთავარ ფუნქციაში ნებისმიერი სხვა ფუნქციის გამოძახება",
+      "პროგრამაში ფუნქციის პროტოტიპის ჩაწერა"
     ],
     "correct": [
       "B"
@@ -2568,13 +2580,13 @@
     "user_answer": []
   },
   {
-    "id": 9087,
-    "question": "daprogramebaSi polimorfizmi niSnavs:",
+    "id": 187,
+    "question": "დაპროგრამებაში პოლიმორფიზმი ნიშნავს:",
     "options": [
-      "kompozicias klasebis SemTxvevaSi",
-      "mravalformianobas funqciaTa gadatvirtvis SemTxvevaSi",
-      "memkvidreobiTobas klasebis ierarqiul struqturaSi",
-      "abstraqtul klasebs"
+      "კომპოზიციას კლასების შემთხვევაში",
+      "მრავალფორმიანობას ფუნქციათა გადატვირთვის შემთხვევაში",
+      "მემკვიდრეობითობას კლასების იერარქიულ სტრუქტურაში",
+      "აბსტრაქტულ კლასებს"
     ],
     "correct": [
       "B"
@@ -2582,13 +2594,13 @@
     "user_answer": []
   },
   {
-    "id": 9088,
-    "question": "memkvidreobiTobis ierarqiul struqturaSi klasi SeiZleba iyos:",
+    "id": 188,
+    "question": "მემკვიდრეობითობის იერარქიულ სტრუქტურაში კლასი შეიძლება იყოს:",
     "options": [
-      "memkvidre (Svilobili)",
-      "sabaziso (mSobeli)",
-      "sabazisoc da amavdroulad memkvidrec",
-      "zemoT warmodgenili yvela varianti sworia"
+      "მემკვიდრე (შვილობილი)",
+      "საბაზისო (მშობელი)",
+      "საბაზისოც და ამავდროულად მემკვიდრეც",
+      "ზემოთ წარმოდგენილი ყველა ვარიანტი სწორია"
     ],
     "correct": [
       "D"
@@ -2596,13 +2608,13 @@
     "user_answer": []
   },
   {
-    "id": 9089,
-    "question": "risi gakeTeba ar SeiZleba Font dialoguri fanjridan?",
+    "id": 189,
+    "question": "დაპროგრამებაში მიმთითებელი (pointer) წარმოადგენს:",
     "options": [
-      "Sriftis feris Secvla",
-      "zeda indeqsis dayeneba",
-      "striqonebs Soris intervalis dayeneba",
-      "asoebs Soris.manZilis gazrda"
+      "მთელი ტიპის ცვლადს",
+      "ნებისმიერ ცვლადს",
+      "ცვლადს, რომელსაც საკუთარი მნიშვნელობის სახით გააჩნია იმ ცვლადის მისამართი, რომელზეც ის მიუთითებს",
+      "ცვლადს, რომელსაც საკუთარი მნიშვნელობის სახით გააჩნია იმ ცვლადის მნიშვნელობა რომელზეც ის მიუთითებს"
     ],
     "correct": [
       "C"
@@ -2610,13 +2622,41 @@
     "user_answer": []
   },
   {
-    "id": 9090,
-    "question": "saidan regulirdeba mindvris zomebi?",
+    "id": 190,
+    "question": "მასივის ფარგლებში რომელი ოპერაციის შესრულებაა დაუშვებელი მიმთითებლებზე (pointers):",
     "options": [
-      "Page Layout menius Page Setup jgufis Margins brZanebiT",
-      "Page Layout menius Page Setup jgufis Size brZanebiT",
-      "Insert / Header and Footer brZanebiT",
-      "Home/Paragraph/Bullets and Numbering…brZanebiT"
+      "ინკრემენტის",
+      "დეკრემენტის",
+      "ახარისხების",
+      "შედარების"
+    ],
+    "correct": [
+      "C"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 191,
+    "question": "დაპროგრამებაში ფუნქციის პროტოტიპის აღწერისას არ არის სავალდებულო:",
+    "options": [
+      "პარამეტრების ტიპების მითითება",
+      "ფუნქციის სახელის მითითება",
+      "საკვანძო სიტყვის void/ან დასაბრუნებელი შედეგის ტიპის მითითება",
+      "პარამეტრების იდენტიფიკატორების მითითება"
+    ],
+    "correct": [
+      "D"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 192,
+    "question": "დაპროგრამებაში მინიჭების ოპერაციის გამოყენებით არითმეტიკული ოპერაციების კომპაქტური ჩაწერა წარმოადგენს:",
+    "options": [
+      "საშუალებას, რომელიც შესაბამისი ოპერაციის შესრულების სისწრაფეს ზრდის",
+      "უბრალოდ შესაბამისი ოპერაციის კომპაქტურ ჩანაწერს",
+      "დაპროგრამების სტილს",
+      "ყველა ზემოთ ჩამოთვლილი ვარიანტი სწორია"
     ],
     "correct": [
       "A"
@@ -2624,13 +2664,55 @@
     "user_answer": []
   },
   {
-    "id": 9091,
-    "question": "rogor moiniSneba teqstSi mTliani striqoni?",
+    "id": 193,
+    "question": "ჩანაწერი x++ წარმოადგენს:",
     "options": [
-      "striqonis gaswvriv marcxena mindvris areSi dawkapunebiT",
-      "striqonze orjeradi dawkapunebiT",
-      "striqonze.samjeradi dawkapunebiT",
-      "striqonis Sesabamisi konteqsturi meniudan"
+      "ინკრემენტის ოპერაციის პრეფიქსულ ფორმას",
+      "ინკრემენტის ოპერაციის პოსტფიქსურ ფორმას",
+      "დეკრემენტის ოპერაციის პოსტფიქსურ ფორმას",
+      "დეკრემენტის ოპერაციის პრეფიქსულ ფორმას"
+    ],
+    "correct": [
+      "B"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 194,
+    "question": "ოპერაცია !(x>0) წარმოადგენს:",
+    "options": [
+      "ბინარულ ოპერაციას",
+      "უნარულ ოპერაციას",
+      "ტერნარულ ოპერაციას",
+      "როგორც უნარულ, ასევე ბინარულ ოპერაციას"
+    ],
+    "correct": [
+      "B"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 195,
+    "question": "ტერნარული ეწოდება ოპერაციას, რომელიც შედგება:",
+    "options": [
+      "ერთი ოპერანდისგან",
+      "ორი ოპერანდისგან",
+      "სამი ოპერანდისგან",
+      "სამზე მეტი ოპერანდისგან"
+    ],
+    "correct": [
+      "C"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 196,
+    "question": "ოპერაციის შესრულების ასოციატურობა განსაზღვრავს:",
+    "options": [
+      "ოპერაციის შესრულების მიმართულებას",
+      "ოპერაციის შესრულების შედეგს",
+      "ოპერაციის შესრულების პრიორიტეტს",
+      "ოპერაციის შესრულების შესაძლო ვარიანტს"
     ],
     "correct": [
       "A"
@@ -2638,12 +2720,96 @@
     "user_answer": []
   },
   {
-    "id": 9092,
-    "question": "CamoTvlilTagan romeli brZanebiT gadainomreba dokumentis gverdebi?",
+    "id": 197,
+    "question": "დაპროგრამებაში ფუნქციის განსაზღვრა (დეკლარირება) აუცილებლად უნდა მოიცავდეს:",
+    "options": [
+      "ფუნქციის სახელს, დასაბრუნებელი შედეგის ტიპს /ან void საკვანძო სიტყვას",
+      "პარამეტრების ტიპებს, მათ რაოდენობას და იდენტიფიკატორებს (მათი არსებობის შემთხვევაში)",
+      "ფუნქციის ტანს",
+      "ყველა ზემოთ ჩამოთვლილი ვარიანტი სწორია"
+    ],
+    "correct": [
+      "D"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 198,
+    "question": "პროგრამაში კომენტარი შეიძლება განვათავსოთ:",
+    "options": [
+      "მხოლოდ პროგრამის დასაწყისში",
+      "მხოლოდ პროგრამის ბოლოს",
+      "მხოლოდ პროგრამის შუა ნაწილში",
+      "პროგრამის ნებისმიერ ადგილას"
+    ],
+    "correct": [
+      "D"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 199,
+    "question": "კლასის ინტერფეისის მისი რეალიზაციისგან გამოყოფას წარმოადგენს:",
+    "options": [
+      "ინკაფსულაცია",
+      "კომპოზიცია",
+      "აბსტრაქცია",
+      "პოლიმორფიზმი"
+    ],
+    "correct": [
+      "A"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 200,
+    "question": "რისი გაკეთება არ შეიძლება Font დიალოგური ფანჯრიდან?",
+    "options": [
+      "შრიფტის ფერის შეცვლა",
+      "ზედა ინდექსის დაყენება",
+      "სტრიქონებს შორის ინტერვალის დაყენება",
+      "ასოებს შორის მანძილის გაზრდა"
+    ],
+    "correct": [
+      "C"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 201,
+    "question": "საიდან რეგულირდება მინდვრის ზომები?",
+    "options": [
+      "Page Layout მენიუს Page Setup ჯგუფის Margins ბრძანებით",
+      "Page Layout მენიუს Page Setup ჯგუფის Size ბრძანებით",
+      "Insert / Header and Footer ბრძანებით",
+      "Home/Paragraph/Bullets and Numbering… ბრძანებით"
+    ],
+    "correct": [
+      "A"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 202,
+    "question": "როგორ მოინიშნება ტექსტში მთლიანი სტრიქონი?",
+    "options": [
+      "სტრიქონის გასწვრივ მარცხენა მინდვრის არეში დაწკაპუნებით",
+      "სტრიქონზე ორჯერადი დაწკაპუნებით",
+      "სტრიქონზე სამჯერადი დაწკაპუნებით",
+      "სტრიქონის შესაბამისი კონტექსტური მენიუდან"
+    ],
+    "correct": [
+      "A"
+    ],
+    "user_answer": []
+  },
+  {
+    "id": 203,
+    "question": "ჩამოთვლილთაგან რომელი ბრძანებით გადაინომრება დოკუმენტის გვერდები?",
     "options": [
       "Home /Paragraph/ Bullets and Numbering…",
       "Insert /Text/ Object…",
-      "Insert /Heather&Footer/ Page Numbers…",
+      "Insert /Header&Footer/ Page Numbers…",
       "Insert / Pages/Page Break"
     ],
     "correct": [
@@ -2652,13 +2818,13 @@
     "user_answer": []
   },
   {
-    "id": 9093,
-    "question": "saxazavis romeli markeri gansazRvravs abzacis pirveli striqonis pozicias?",
+    "id": 204,
+    "question": "სახაზავის რომელი მარკერი განსაზღვრავს აბზაცის პირველი სტრიქონის პოზიციას?",
     "options": [
-      "marcxena zeda.markeri",
-      "marcxena qveda.samkuTxa markeri",
-      "marcxena qveda kvadratuli markeri",
-      "marjvena markeri"
+      "მარცხენა ზედა მარკერი",
+      "მარცხენა ქვედა სამკუთხა მარკერი",
+      "მარცხენა ქვედა კვადრატული მარკერი",
+      "მარჯვენა მარკერი"
     ],
     "correct": [
       "A"
@@ -2666,8 +2832,8 @@
     "user_answer": []
   },
   {
-    "id": 9094,
-    "question": "romeli sabrZanebo RilakiT xdeba abzacebis markireba?",
+    "id": 205,
+    "question": "რომელი საბრძანებო ღილაკით ხდება აბზაცების მარკირება?",
     "options": [
       "Home/Paragraph/Bullets",
       "Home/Font/Italic",
@@ -2680,8 +2846,8 @@
     "user_answer": []
   },
   {
-    "id": 9095,
-    "question": "romeli brZanebiT xdeba suraTis Casma teqstSi?",
+    "id": 206,
+    "question": "რომელი ბრძანებით ხდება სურათის ჩასმა ტექსტში?",
     "options": [
       "Edit / Replace…",
       "View / Views/ Outline",
@@ -2694,13 +2860,13 @@
     "user_answer": []
   },
   {
-    "id": 9096,
-    "question": "moqmedebaTa romeli mimdevrobiT aris SesaZlebveli zeda kolon­titulis Casma",
+    "id": 207,
+    "question": "მოქმედებათა რომელი მიმდევრობით არის შესაძლებელი ზედა კოლონტიტულის ჩასმა",
     "options": [
-      "Insert CanarTis Text jgufis Quiick Parts Rilakis.gaaqtiurebiT;",
-      "Insert CanarTis Header anf Footer jgufis Page number Rilakis.gaaqtiurebiT;",
-      "Insert CanarTis Header anf Footer jgufis Footer Rilakis.gaaqtiurebiT;",
-      "Insert CanarTis Header anf Footer jgufis Header Rilakis.gaaqtiurebiT"
+      "Insert ჩანართის Text ჯგუფის Quick Parts ღილაკის გააქტიურებით;",
+      "Insert ჩანართის Header and Footer ჯგუფის Page number ღილაკის გააქტიურებით;",
+      "Insert ჩანართის Header and Footer ჯგუფის Footer ღილაკის გააქტიურებით;",
+      "Insert ჩანართის Header and Footer ჯგუფის Header ღილაკის გააქტიურებით"
     ],
     "correct": [
       "D"
@@ -2708,13 +2874,13 @@
     "user_answer": []
   },
   {
-    "id": 9097,
-    "question": "rogor unda moviqceT, raTa SesaZlebeli iyos dokumentSi Casmuli TariRisa da drois avtomaturi ganaxleba?",
+    "id": 208,
+    "question": "როგორ უნდა მოვიქცეთ, რათა შესაძლებელი იყოს დოკუმენტში ჩასმული თარიღისა და დროის ავტომატური განახლება?",
     "options": [
-      "Date and Time dialogur fanjaraSi CavrToT Update automatically CamrTveli",
-      "Date and Time dialogur fanjaraSi davawkapunoT Default Rilakze",
-      "TariRi da dro CavsvaT kolontitulebSi",
-      "dokumenti SevinaxoT HTML formatSi"
+      "Date and Time დიალოგურ ფანჯარაში ჩავრთოთ Update automatically ჩამრთველი",
+      "Date and Time დიალოგურ ფანჯარაში დავაწკაპუნოთ Default ღილაკზე",
+      "თარიღი და დრო ჩავსვათ კოლონტიტულებში",
+      "დოკუმენტი შევინახოთ HTML ფორმატში"
     ],
     "correct": [
       "A"
@@ -2722,13 +2888,13 @@
     "user_answer": []
   },
   {
-    "id": 9098,
-    "question": "Excel-is ujredSi Setanili ricxviTi monacemebi ganTavsdeba:",
+    "id": 209,
+    "question": "Excel-ის უჯრედში შეტანილი რიცხვითი მონაცემები განთავსდება:",
     "options": [
-      "ujredis marcxena kidesTan",
-      "ujredis marjvena kidesTan",
-      "ujredis centrSi",
-      "ujredis zeda kidesTan"
+      "უჯრედის მარცხენა კიდესთან",
+      "უჯრედის მარჯვენა კიდესთან",
+      "უჯრედის ცენტრში",
+      "უჯრედის ზედა კიდესთან"
     ],
     "correct": [
       "B"
@@ -2736,13 +2902,13 @@
     "user_answer": []
   },
   {
-    "id": 9099,
-    "question": "risTvis gamoiyeneba formulis zoli/striqoni (Formula Bar)?",
+    "id": 210,
+    "question": "რისთვის გამოიყენება ფორმულის ზოლი/სტრიქონი (Formula Bar)?",
     "options": [
-      "moniSnuli ujris (ujraTa diapazonis) SigTavsis daTvalierebisa da redaqtirebisaTvis",
-      "grafikuli obieqtebis Casasmelad",
-      "swrafi gaSvebis panelis sxva adgilze gadatanisTvis",
-      "monacemTa kopirebisaTvis"
+      "მონიშნული უჯრის (უჯრათა დიაპაზონის) შიგთავსის დათვალიერებისა და რედაქტირებისათვის",
+      "გრაფიკული ობიექტების ჩასასმელად",
+      "სწრაფი გაშვების პანელის სხვა ადგილზე გადატანისთვის",
+      "მონაცემთა კოპირებისათვის"
     ],
     "correct": [
       "A"
@@ -2750,13 +2916,13 @@
     "user_answer": []
   },
   {
-    "id": 9100,
-    "question": "ris gakeTeba ar SeiZleba Format Cells dialoguri fanjridan?",
+    "id": 211,
+    "question": "რისი გაკეთება არ შეიძლება Format Cells დიალოგური ფანჯრიდან?",
     "options": [
-      "ujraSi teqstis ramdenime striqonze ganTavseba",
-      "monacemTa centrireba horizontaluri da vertikaluri mimarTulebiT",
-      "moniSnuli aris Sida da gare CarCos gakeTeba",
-      "gansxvavebuli simbolos Casma"
+      "უჯრაში ტექსტის რამდენიმე სტრიქონზე განთავსება",
+      "მონაცემთა ცენტრირება ჰორიზონტალური და ვერტიკალური მიმართულებით",
+      "მონიშნული არის შიდა და გარე ჩარჩოს გაკეთება",
+      "განსხვავებული სიმბოლოს ჩასმა"
     ],
     "correct": [
       "D"
@@ -2764,8 +2930,8 @@
     "user_answer": []
   },
   {
-    "id": 9101,
-    "question": "romeli simbolo gamoiyeneba ujredis absoluturi misamarTis aRsaniSnad?",
+    "id": 212,
+    "question": "რომელი სიმბოლო გამოიყენება უჯრედის აბსოლუტური მისამართის აღსანიშნად?",
     "options": [
       "&",
       "%",
@@ -2778,13 +2944,13 @@
     "user_answer": []
   },
   {
-    "id": 9102,
-    "question": "ras niSnavs Canaweri $D$32?",
+    "id": 213,
+    "question": "რას ნიშნავს ჩანაწერი $D$32?",
     "options": [
-      "D32 ujraSi Cawerilia absoluturi misamarTi",
-      "D32 ujraSi Cawერilia fardobiTi misamarTi misamarTi",
-      "D32 ujრაSi Cawერilia Sereuli misamarTi",
-      "D32 ujრაSi Cawერilia wrfivi misamarTi"
+      "D32 უჯრაში ჩაწერილია აბსოლუტური მისამართი",
+      "D32 უჯრაში ჩაწერილია ფარდობითი მისამართი",
+      "D32 უჯრაში ჩაწერილია შერეული მისამართი",
+      "D32 უჯრაში ჩაწერილია წრფივი მისამართი"
     ],
     "correct": [
       "A"
@@ -2792,13 +2958,13 @@
     "user_answer": []
   },
   {
-    "id": 9103,
-    "question": "ras niSnavs Secdoma #### :",
+    "id": 214,
+    "question": "რას ნიშნავს შეცდომა ####:",
     "options": [
-      "maTematikuri formula mimarTavs teqstur cvlads",
-      "formuliT miRebuli gamoTvlis Sedegi ar eteva ujredSi da saWiroa Sesabamisi svetis siganis gafarToeba",
-      "argumenti ar ekuTvnis funqciis gansazRvris ares",
-      "formula sworad ar aris Cawerili"
+      "მათემატიკური ფორმულა მიმართავს ტექსტურ ცვლადს",
+      "ფორმულით მიღებული გამოთვლის შედეგი არ ეტევა უჯრედში და საჭიროა შესაბამისი სვეტის სიგანის გაფართოება",
+      "არგუმენტი არ ეკუთვნის ფუნქციის განსაზღვრის არეს",
+      "ფორმულა სწორად არ არის ჩაწერილი"
     ],
     "correct": [
       "B"
@@ -2806,8 +2972,8 @@
     "user_answer": []
   },
   {
-    "id": 9104,
-    "question": "romeli  mimarTva ar aris sworad Cawerili:",
+    "id": 215,
+    "question": "რომელი მიმართვა არ არის სწორად ჩაწერილი:",
     "options": [
       "A5:C8",
       "Sheet2!A1:C5",
@@ -2820,13 +2986,13 @@
     "user_answer": []
   },
   {
-    "id": 9105,
-    "question": "funqciaAVERAGE gamoiTvlis:",
+    "id": 216,
+    "question": "ფუნქცია AVERAGE გამოითვლის:",
     "options": [
-      "misi argumentebis saSualo ariTmetikuls",
-      "mis argumentебs Soris.udidesisa da umciresis saSualo ariTmetikuls",
-      "misi.argumentebis saSualo.geometriuls",
-      "argumentebis absolutur mniSvnelobaTa saSualო ariTmetikuls"
+      "მისი არგუმენტების საშუალო არითმეტიკულს",
+      "მის არგუმენტებს შორის უდიდესისა და უმცირესის საშუალო არითმეტიკულს",
+      "მისი არგუმენტების საშუალო გეომეტრიულს",
+      "არგუმენტების აბსოლუტურ მნიშვნელობათა საშუალო არითმეტიკულს"
     ],
     "correct": [
       "A"
@@ -2834,13 +3000,13 @@
     "user_answer": []
   },
   {
-    "id": 9106,
-    "question": "moniSnul A1 da A2 ujredebSi weria ricxvebi 5 da 7. CarCos markeri mausiT CamovwieT A10-e ujredamde.ra moxdeba?",
+    "id": 217,
+    "question": "მონიშნულ A1 და A2 უჯრებში წერია რიცხვები 5 და 7. ჩარჩოს მარკერი მაუსით ჩამოვწიეთ A10-ე უჯრედამდე. რა მოხდება?",
     "options": [
-      "araferi",
-      "A1-A10 ujredebSi rigrigobiT Caiwereba ricxvebi 5 da 7",
-      "A1-A10 ujredebSi Caiwereba ricxvebi: 5, 7, 9, ... , 23",
-      "A9 da A10 ujredebSi Caiwereba, Sesabamisad, 5 da 7"
+      "არაფერი",
+      "A1-A10 უჯრებში რიგრიგობით ჩაიწერება რიცხვები 5 და 7",
+      "A1-A10 უჯრებში ჩაიწერება რიცხვები: 5, 7, 9, ... , 23",
+      "A9 და A10 უჯრებში ჩაიწერება, შესაბამისად, 5 და 7"
     ],
     "correct": [
       "C"
@@ -2848,13 +3014,13 @@
     "user_answer": []
   },
   {
-    "id": 9107,
-    "question": "rogor ganixilavs Excel-i ujredSi Cawერil wesier wilads 5/23:",
+    "id": 218,
+    "question": "როგორ განიხილავს Excel-ი უჯრედში ჩაწერილ წესიერ წილადს 5/23:",
     "options": [
-      "Sesabamisi aTwiladis saxiT",
-      "rogorc TariRs: 23 maisi",
-      "15 niSnad ciframde damrgvalebuli Sesabamisi aTwiladis saxiT",
-      "rogorc wesier wilads 5/23"
+      "შესაბამისი ათწილადის სახით",
+      "როგორც თარიღს: 23 მაისი",
+      "15 ნიშნად ციფრამდე დამრგვალებული შესაბამისი ათწილადის სახით",
+      "როგორც წესიერ წილადს 5/23"
     ],
     "correct": [
       "B"
@@ -2862,13 +3028,13 @@
     "user_answer": []
   },
   {
-    "id": 9108,
-    "question": "rogori tipis mniSvneloba unda hqondes IF funqciis pirvel arguments:",
+    "id": 219,
+    "question": "როგორი ტიპის მნიშვნელობა უნდა ჰქონდეს IF ფუნქციის პირველ არგუმენტს:",
     "options": [
-      "ricxviTi",
-      "teqsturi",
-      "samisamarTo",
-      "logikuri"
+      "რიცხვითი",
+      "ტექსტური",
+      "სამისამართო",
+      "ლოგიკური"
     ],
     "correct": [
       "D"
@@ -2876,13 +3042,13 @@
     "user_answer": []
   },
   {
-    "id": 9109,
-    "question": "romeli moqmedебis SesrulebiT ar daemateba slaidi prezentacias?",
+    "id": 220,
+    "question": "რომელი მოქმედების შესრულებით არ დაემატება სლაიდი პრეზენტაციას?",
     "options": [
-      "Home / Slides jgufis Slide Layout brZanebiT.",
-      "Home / Slides jgufis New Slide brZanebiT,",
-      "struqturis ares slaidis CanarTidan aqtiuri slaidis konteqs­tu­ri menius New Slide brZanebis arCeviT,",
-      "klaviaturis Ctrl + M klaviSTa kombinaciT;"
+      "Home / Slides ჯგუფის Slide Layout ბრძანებით.",
+      "Home / Slides ჯგუფის New Slide ბრძანებით,",
+      "სტრუქტურის არეს სლაიდის ჩანართიდან აქტიური სლაიდის კონტექსტური მენიუს New Slide ბრძანების არჩევით,",
+      "კლავიატურის Ctrl + M კლავიშთა კომბინაციით;"
     ],
     "correct": [
       "A"
@@ -2890,12 +3056,12 @@
     "user_answer": []
   },
   {
-    "id": 9110,
-    "question": "amocanaTa.panelis romeli CanarTidan ganisazRvreba slaidis animaciis sqema",
+    "id": 221,
+    "question": "ამოცანათა პანელის რომელი ჩანართიდან განისაზღვრება სლაიდის ანიმაციის სქემა",
     "options": [
-      "Disign/Themes jgufის Sesabamisi brZanebiT",
-      "Transition/Transition to This Slide jgufის Sesabamisi.brZanebiT",
-      "Animation/Animations jgufის Sesabamisi brZanebiT",
+      "Design/Themes ჯგუფის შესაბამისი ბრძანებით",
+      "Transition/Transition to This Slide ჯგუფის შესაბამისი ბრძანებით",
+      "Animation/Animations ჯგუფის შესაბამისი ბრძანებით",
       "View /Presentation Views/ Note Page"
     ],
     "correct": [
@@ -2904,8 +3070,8 @@
     "user_answer": []
   },
   {
-    "id": 9111,
-    "question": "romeli brZanebiT xdeba xmovani da dinamiuri failebis Camateba",
+    "id": 222,
+    "question": "რომელი ბრძანებით ხდება ხმოვანი და დინამიური ფაილების ჩამატება",
     "options": [
       "Insert / Duplicate Slide",
       "Insert /Media / Video & Audio",
@@ -2918,8 +3084,8 @@
     "user_answer": []
   },
   {
-    "id": 9112,
-    "question": "romeli brZanebiT xdeba slaidebis dalagebis reJimis CarTva?",
+    "id": 223,
+    "question": "რომელი ბრძანებით ხდება სლაიდების დალაგების რეჟიმის ჩართვა?",
     "options": [
       "View /Presentation Views/ Slide Sorter",
       "View /Master Views /Slide Master",
@@ -2932,13 +3098,13 @@
     "user_answer": []
   },
   {
-    "id": 9113,
-    "question": "standartulad satitulo slaidi Sedgeba:",
+    "id": 224,
+    "question": "სტანდარტულად სატიტულო სლაიდი შედგება:",
     "options": [
-      "mxolod saTauris Title arisgan",
-      "saTauris Title da qvesaTauris – Subtitle teqsturi areebisgan.",
-      "mxolod qvesaTauris – Subtitle teqsturi arisgan",
-      "Office Theme -idgan"
+      "მხოლოდ სათაურის Title არისგან",
+      "სათაურის Title და ქვესათაურის – Subtitle ტექსტური არეებისგან.",
+      "მხოლოდ ქვესათაურის – Subtitle ტექსტური არისგან",
+      "Office Theme-იდგან"
     ],
     "correct": [
       "B"

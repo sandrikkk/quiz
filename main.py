@@ -1,3 +1,5 @@
+import os
+
 from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -6,7 +8,11 @@ import json
 from typing import List, Optional
 import asyncio
 from ai_service import ai_service
+from dotenv import load_dotenv
 
+load_dotenv()
+
+QUIZ_DATA_FILE = os.getenv("QUIZ_DATA_FILE", "quiz_2016.json")
 app = FastAPI(title="Quiz Application", description="Georgian Programming Quiz")
 
 # Pydantic models
@@ -31,14 +37,14 @@ class DetailedResult(BaseModel):
 # Load quiz data
 def load_quiz_data():
     try:
-        with open("quiz.json", "r", encoding="utf-8") as file:
+        with open(f"{QUIZ_DATA_FILE}", "r", encoding="utf-8") as file:
             return json.load(file)
     except FileNotFoundError:
         raise HTTPException(status_code=404, detail="Quiz data not found")
 
 # Save quiz data
 def save_quiz_data(data):
-    with open("quiz.json", "w", encoding="utf-8") as file:
+    with open(f"{QUIZ_DATA_FILE}", "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
 @app.get("/")
