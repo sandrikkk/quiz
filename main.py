@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-QUIZ_DATA_FILE = os.getenv("QUIZ_DATA_FILE", "quiz_2016.json")
+QUIZ_DATA_FILE = os.getenv("QUIZ_DATA_FILE", "quiz_example.json")
 app = FastAPI(title="Quiz Application", description="Georgian Programming Quiz")
 
 # Pydantic models
@@ -60,7 +60,7 @@ async def get_quiz():
     for question in quiz_data:
         clean_question = {
             "id": question["id"],
-            "question": question["question"], 
+            "question": question["question"],
             "options": question["options"]
         }
         clean_quiz.append(clean_question)
@@ -73,7 +73,7 @@ async def get_question(question_id: int):
     question = next((q for q in quiz_data if q["id"] == question_id), None)
     if not question:
         raise HTTPException(status_code=404, detail="Question not found")
-    
+
     return {
         "id": question["id"],
         "question": question["question"],
@@ -87,10 +87,10 @@ async def get_correct_answer(question_id: int):
     question = next((q for q in quiz_data if q["id"] == question_id), None)
     if not question:
         raise HTTPException(status_code=404, detail="Question not found")
-    
+
     correct_answer = question.get("correct", [""])[0]
     correct_text = ""
-    
+
     if correct_answer and question.get("options"):
         try:
             # Convert A, B, C, D to 0, 1, 2, 3
@@ -99,7 +99,7 @@ async def get_correct_answer(question_id: int):
                 correct_text = question["options"][option_index]
         except (IndexError, ValueError):
             pass
-    
+
     return {
         "id": question_id,
         "correct_answer": correct_answer,
@@ -113,33 +113,33 @@ async def submit_answer(question_id: int, answer: Answer):
     question = next((q for q in quiz_data if q["id"] == question_id), None)
     if not question:
         raise HTTPException(status_code=404, detail="Question not found")
-    
+
     # Save user answer (create field if it doesn't exist)
     if "user_answer" not in question:
         question["user_answer"] = []
     question["user_answer"] = [answer.answer]
     save_quiz_data(quiz_data)
-    
+
     return {"message": "Answer submitted successfully", "answer": answer.answer}
 
 @app.get("/api/results")
 async def get_results():
     """Get quiz results with correct answers and AI explanations"""
     quiz_data = load_quiz_data()
-    
+
     total_questions = len(quiz_data)
     correct_count = 0
     detailed_results = []
-    
+
     # Collect all incorrect answers for batch AI processing
     incorrect_questions = []
-    
+
     for question in quiz_data:
         question_id = question["id"]
         user_answer = question.get("user_answer", [])
         correct_answer_list = question.get("correct", [])
         correct_answer = correct_answer_list[0] if correct_answer_list else ""
-        
+
         is_correct = len(user_answer) > 0 and user_answer[0] == correct_answer
         if is_correct:
             correct_count += 1
@@ -152,7 +152,7 @@ async def get_results():
                     "user_answer": user_answer[0],
                     "correct_answer": correct_answer
                 })
-            
+
         detailed_results.append({
             "id": question_id,
             "question": question["question"],
@@ -162,13 +162,13 @@ async def get_results():
             "is_correct": is_correct,
             "ai_explanation": None  # Will be filled later
         })
-    
+
     # Generate AI explanations for incorrect answers
     if incorrect_questions:
         print(f"[MAIN] Starting AI explanation generation for {len(incorrect_questions)} questions")
         explanations = await generate_ai_explanations(incorrect_questions)
         print(f"[MAIN] AI explanation generation completed")
-        
+
         # Update detailed_results with AI explanations
         for i, result in enumerate(detailed_results):
             # Only add AI explanation if user gave a wrong answer (not if no answer given)
@@ -176,9 +176,9 @@ async def get_results():
                 # Find matching explanation using the same key format as ai_service
                 explanation_key = f"{result['id']}_{result['user_answer']}_{result['correct_answer']}"
                 result["ai_explanation"] = explanations.get(explanation_key)
-    
+
     percentage = (correct_count / total_questions) * 100 if total_questions > 0 else 0
-    
+
     return QuizResult(
         total_questions=total_questions,
         correct_answers=correct_count,
@@ -189,11 +189,11 @@ async def get_results():
 async def generate_ai_explanations(incorrect_questions):
     """Generate AI explanations for incorrect answers using batch processing"""
     print(f"[GENERATE_AI] Function called with {len(incorrect_questions)} questions")
-    
+
     if not incorrect_questions:
         print(f"[GENERATE_AI] No questions provided, returning empty dict")
         return {}
-    
+
     # Use batch processing to get all explanations in one API call
     print(f"[GENERATE_AI] Calling ai_service.get_batch_explanations()")
     explanations = await ai_service.get_batch_explanations(incorrect_questions)
